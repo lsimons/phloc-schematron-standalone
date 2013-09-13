@@ -12,7 +12,9 @@ to get phloc-schematron for yourself, you need
   http://code.google.com/p/phloc-schematron/
 
 to build, simply run
+```bash
   mvn install -Dmaven.test.skip=true
+```
 (not all the tests will run)
 
 here's (roughly) how this version was first initialized:
