@@ -1,18 +1,19 @@
-# this is a version of phloc-schematron 2.6.3-SNAPSHOT
-# ...that does not depend on or use the phloc maven repository.
-# ...which is useful for paranoid people that don't want to download
-#    random binary code of the internet
-# ...or in case the phloc repository goes down and you need to
-#    recompile or patch the source code.
-#
-# to get phloc-schematron for yourself, you need
-#   http://code.google.com/p/phloc-parent-pom/
-#   http://code.google.com/p/phloc-commons/
-#   http://code.google.com/p/phloc-math/
-#   http://code.google.com/p/phloc-schematron/
+this is a version of phloc-schematron 2.6.3-SNAPSHOT
+...that does not depend on or use the phloc maven repository.
+...which is useful for paranoid people that don't want to download
+   random binary code of the internet
+...or in case the phloc repository goes down and you need to
+   recompile or patch the source code.
 
-# here's how this version was made:
+to get phloc-schematron for yourself, you need
+  http://code.google.com/p/phloc-parent-pom/
+  http://code.google.com/p/phloc-commons/
+  http://code.google.com/p/phloc-math/
+  http://code.google.com/p/phloc-schematron/
 
+here's (roughly) how this version was made:
+
+```bash
 rm -r ~/.m2/repository/com/phloc
 svn checkout http://phloc-parent-pom.googlecode.com/svn/trunk/ phloc-parent-pom
 cd phloc-parent-pom
@@ -363,3 +364,4 @@ Index: pom.xml
 END
 
 mvn install -Dmaven.test.skip=true
+```
