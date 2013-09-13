@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright (C) 2010 Bundesrechenzentrum GmbH
+    http://www.brz.gv.at
+
+    Copyright (C) 2012-2013 phloc systems
+    http://www.phloc.com
+    office[at]phloc[dot]com
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+            http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+-->
+<changelog xmlns="http://www.phloc.com/ns/changelog/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.phloc.com/ns/changelog/1.0 schemas/changelog-1.0.xsd" version="1.0" component="schematron2xslt-maven-plugin">
+  <release date="2013-05-28" version="2.6.1" />
+  <entry date="2013-05-28" category="tech" action="update">
+    <change>
+      <text locale="en">Updated to phloc-schematron 2.6.1</text>
+    </change>
+  </entry>
+  <release date="2013-04-23" version="2.6.0" />
+  <release date="2013-04-23" version="2.6.0-RC2" />
+  <entry date="2013-04-23" category="api" action="add">
+    <change>
+      <text locale="en">Added new configuration parameters "phaseName" and "languageCode" to customize the XSLT processing further</text>
+    </change>
+  </entry>
+  <entry date="2013-04-23" category="api" action="change" incompatible="true">
+    <change>
+      <text locale="en">Fixed property names, so that the XML configuration properties are easier to understand</text>
+    </change>
+  </entry>
+  <release date="2013-03-11" version="2.5.0" />
+  <!-- changelog started -->
+</changelog>

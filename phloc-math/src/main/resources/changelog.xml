@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright (C) 2006-2013 phloc systems
+    http://www.phloc.com
+    office[at]phloc[dot]com
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+            http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+-->
+<changelog xmlns="http://www.phloc.com/ns/changelog/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.phloc.com/ns/changelog/1.0 schemas/changelog-1.0.xsd" version="1.0" component="phloc-math">
+  <release date="2013-07-02" version="1.0.3" />
+  <entry date="2013-07-02" category="tech" action="remove">
+    <change>
+      <text locale="en">Removed genetic package again, because it is never used in practice and it is just bloating the project. It was extracted to https://github.com/phax/jgatsp</text>
+    </change>
+  </entry>
+  <entry date="2013-04-17" category="tech" action="update">
+    <change>
+      <text locale="en">Updated to phloc-commons 4.0.3</text>
+    </change>
+  </entry>
+  <release date="2013-01-29" version="1.0.2" />
+  <entry date="2013-01-29" category="api" action="add">
+    <change>
+      <text locale="en">Added new class MatrixInt which uses an int array as internal storage</text>
+    </change>
+  </entry>
+  <entry date="2013-01-29" category="api" action="add">
+    <change>
+      <text locale="en">Added new package genetic that contains a generic genetic algorithm implementation. Based on the "J GA TSP" Open Source project developed for university</text>
+    </change>
+  </entry>
+  <release date="2013-01-07" version="1.0.1" />
+  <entry date="2012-12-10" category="api" action="add">
+    <change>
+      <text locale="en">Added new method Matrix.isSymmetrical()</text>
+    </change>
+  </entry>
+  <entry date="2012-12-04" category="performance" action="update">
+    <change>
+      <text locale="en">Made Matrix implementation a bit faster</text>
+    </change>
+  </entry>
+  <entry date="2012-12-04" category="api" action="add">
+    <change>
+      <text locale="en">Added support for creating incidence matrix from graphs</text>
+    </change>
+  </entry>
+  <release date="2012-12-03" version="1.0.0" />
+  <entry date="2012-11-26" category="api" action="add">
+    <change>
+      <text locale="en">Initial export from phloc-commons</text>
+    </change>
+  </entry>
+</changelog>

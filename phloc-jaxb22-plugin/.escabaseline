@@ -1,0 +1,14 @@
+# Enerjy Software baseline data (files=4, problems=9).
+path: /phloc-jaxb22-plugin/src/main/java/com/phloc/jaxb22/plugin/CJAXB22.java
+problem: JAVA0001:JAVA0001 Package name 'com.phloc.jaxb22.plugin' does not contain only lower case letters
+path: /phloc-jaxb22-plugin/src/main/java/com/phloc/jaxb22/plugin/PluginEqualsHashCode.java
+problem: JAVA0001:JAVA0001 Package name 'com.phloc.jaxb22.plugin' does not contain only lower case letters
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0177:JAVA0177 Variable declaration 'aInvocation' missing initializer
+path: /phloc-jaxb22-plugin/src/main/java/com/phloc/jaxb22/plugin/PluginImplements.java
+problem: JAVA0001:JAVA0001 Package name 'com.phloc.jaxb22.plugin' does not contain only lower case letters
+problem: JAVA0137:JAVA0137 Non-abstract class 'PluginImplements' missing constructor
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'opt' (maximum: 0)
+path: /phloc-jaxb22-plugin/src/main/java/com/phloc/jaxb22/plugin/PluginToString.java
+problem: JAVA0001:JAVA0001 Package name 'com.phloc.jaxb22.plugin' does not contain only lower case letters
+problem: JAVA0177:JAVA0177 Variable declaration 'aInvocation' missing initializer

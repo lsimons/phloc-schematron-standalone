@@ -1,0 +1,735 @@
+#summary Change log of phloc-commons
+= Change log =
+<wiki:comment>This content is generated. Do not modify!</wiki:comment>
+<table border="1" cellspacing="0"><thead><tr><th>Date</th><th>Action</th><th>Category</th><th>Incompatible?</th><th>Description</th></tr></thead><tbody>
+<tr border="1"><td>9/3/13</td><td colspan="4">_Release *4.0.10*_</td></tr>
+<tr><td>9/3/13</td><td>add</td><td>api</td><td></td><td>Added the possibility to override exception handling in AbstractJAXBMarshaller</td></tr>
+<tr><td>9/3/13</td><td>add</td><td>api</td><td></td><td>Extended IMimeType API slightly.</td></tr>
+<tr><td>9/2/13</td><td>add</td><td>tech</td><td></td><td>Added the possibility to specify a custom IExceptionListener that will be called for SAX and DOM parsing</td></tr>
+<tr><td>9/2/13</td><td>add</td><td>api</td><td></td><td>Made LoggingExceptionHandler more flexible</td></tr>
+<tr><td>9/2/13</td><td>add</td><td>api</td><td></td><td>Added method StringParser.parseBoolean(String, boolean bDefault)</td></tr>
+<tr><td>9/2/13</td><td>add</td><td>api</td><td></td><td>Added methods in MathHelper</td></tr>
+<tr border="1"><td>8/28/13</td><td colspan="4">_Release *4.0.9*_</td></tr>
+<tr><td>8/27/13</td><td>add</td><td>api</td><td></td><td>Added new methods ContainerHelper.newEnumSet</td></tr>
+<tr><td>8/26/13</td><td>fix</td><td>api</td><td></td><td>Fixed handling of StringHelper.getHexStringLeadingZero() for negative values</td></tr>
+<tr><td>8/26/13</td><td>add</td><td>api</td><td></td><td>Added new method MimeType.removeParameterWithName</td></tr>
+<tr><td>8/26/13</td><td>add</td><td>api</td><td></td><td>Added new class TransformResultFactory</td></tr>
+<tr><td>8/23/13</td><td>add</td><td>api</td><td></td><td>Added new method StringHelper.removeAll(String,char)</td></tr>
+<tr><td>8/23/13</td><td>add</td><td>api</td><td></td><td>Added new classes URLCodec</td></tr>
+<tr><td>8/23/13</td><td>add</td><td>api</td><td></td><td>Added new classes QuotedPrintableCodec, RFC1522BCodec and RFC1522QCodec from [http://code.google.com/p/phloc-webbasics phloc-web]</td></tr>
+<tr><td>8/23/13</td><td>add</td><td>api</td><td></td><td>Added new class Base64Codec that uses Base64 and implements ICodec</td></tr>
+<tr><td>8/23/13</td><td>add</td><td>api</td><td></td><td>Added new annotation @WorkInProgress</td></tr>
+<tr><td>8/23/13</td><td>add</td><td>api</td><td></td><td>Added methods ContainerHelper.removeElementAtIndex and ContainerHelper.removeAndReturnElementAtIndex</td></tr>
+<tr><td>8/23/13</td><td>add</td><td>api</td><td></td><td>Added support for MimeType parameters</td></tr>
+<tr><td>8/23/13</td><td>update</td><td>api</td><td></td><td>Extended MimeType handling</td></tr>
+<tr border="1"><td>7/10/13</td><td colspan="4">_Release *4.0.8*_</td></tr>
+<tr><td>7/10/13</td><td>change</td><td>tech</td><td></td><td>Using Maven artifact com.google.code.findbugs:annotations instead of com.google.code.findbugs:jsr305 to avoid internalizing the FindBugs annotations.</td></tr>
+<tr><td>6/27/13</td><td>add</td><td>api</td><td></td><td>Added MathHelper.getWithoutTrailingZeroes(BigDecimal)</td></tr>
+<tr><td>6/19/13</td><td>add</td><td>api</td><td></td><td>Extended JAXBMarshallerUtils to differentiate between runtime and external Marshaller objects</td></tr>
+<tr><td>6/17/13</td><td>add</td><td>api</td><td></td><td>Extended MathHelper API to support easy handling of BigDecimal.TEN and BigInteger.TEN</td></tr>
+<tr><td>6/16/13</td><td>add</td><td>api</td><td></td><td>Added new method CountryCache.getAllCountryLocales()</td></tr>
+<tr><td>6/13/13</td><td>add</td><td>api</td><td></td><td>Added new method StringHelper.replaceMultiple(String,char[],char)</td></tr>
+<tr><td>6/11/13</td><td>add</td><td>api</td><td></td><td>Added protected methods in AbstractJAXBMarshaller to customize the generated Marshaller and Unmarshaller objects</td></tr>
+<tr><td>6/6/13</td><td>add</td><td>api</td><td></td><td>Extended MathHelper API to support easy handling of BigDecimal.ONE and BigInteger.ONE</td></tr>
+<tr><td>6/4/13</td><td>fix</td><td>api</td><td></td><td>Fixed generic types of constructors of MapBased(Readonly)AttributeContainer(ThreadSafe)</td></tr>
+<tr border="1"><td>5/21/13</td><td colspan="4">_Release *4.0.7*_</td></tr>
+<tr><td>5/17/13</td><td>add</td><td>feature</td><td></td><td>Added a tool to create JDK5 versions of a project based on some meta comments in the source files.</td></tr>
+<tr><td>5/15/13</td><td>add</td><td>api</td><td></td><td>Added new constructor to AbstractJAXBMarshaller which takes an array of XSD resources</td></tr>
+<tr><td>5/13/13</td><td>add</td><td>tech</td><td></td><td>Added detection of application/vnd.ms-excel content in MimeTypeDeterminator</td></tr>
+<tr><td>5/13/13</td><td>update</td><td>tech</td><td></td><td>Improved detection of text/xml content in MimeTypeDeterminator</td></tr>
+<tr border="1"><td>5/7/13</td><td colspan="4">_Release *4.0.6*_</td></tr>
+<tr><td>5/7/13</td><td>add</td><td>api</td><td></td><td>Added new test method PhlocTestUtils.testInParallel</td></tr>
+<tr><td>5/7/13</td><td>fix</td><td>tech</td><td></td><td>Made DOM XML reading thread-safe by introducing an ObjectPool for it as well</td></tr>
+<tr><td>5/7/13</td><td>add</td><td>api</td><td></td><td>Added new overloads of XMLReader.readXMLSAX()</td></tr>
+<tr><td>5/7/13</td><td>fix</td><td>tech</td><td></td><td>Fixed artificial dead lock in URLUtils when multi-thread testing XML parsing</td></tr>
+<tr><td>5/5/13</td><td>add</td><td>api</td><td></td><td>Added new class AdapterRunnableToThrowingRunnable</td></tr>
+<tr><td>5/4/13</td><td>change</td><td>api</td><td></td><td>Added new method HashCodeGenerator.hashCode() but marked as deprecated. Correct method to call is getHashCode().</td></tr>
+<tr><td>5/3/13</td><td>change</td><td>api</td><td></td><td>Added new constructors to FileSystemRecursiveIterator to avoid ambiguities when using an AbstractFileFilter</td></tr>
+<tr border="1"><td>5/3/13</td><td colspan="4">_Release *4.0.5*_</td></tr>
+<tr><td>5/3/13</td><td>change</td><td>api</td><td></td><td>Made classes SuccessWithValue, ChangeWithValue, ResourceLocation and XMLWriterSettings non-final</td></tr>
+<tr><td>5/1/13</td><td>change</td><td>tech</td><td>*yes*</td><td>InputSourceFactory.create returns null-InputSource for null-InputStream and null-Reader</td></tr>
+<tr><td>5/1/13</td><td>add</td><td>api</td><td></td><td>Added new classes AdapterCallableToCallableWithParam and AdapterRunnableToRunnableWithParameter</td></tr>
+<tr border="1"><td>4/28/13</td><td colspan="4">_Release *4.0.4*_</td></tr>
+<tr><td>4/28/13</td><td>add</td><td>api</td><td></td><td>Added new class DoNothingTransformURIResolver</td></tr>
+<tr><td>4/28/13</td><td>add</td><td>api</td><td></td><td>Added new classes DoNothingValidationEventHandler and DoNothingValidationEventHandlerFactory</td></tr>
+<tr><td>4/28/13</td><td>add</td><td>api</td><td>*yes*</td><td>Extended IHasErrorLevels class with the following methods: containsNoSuccess(), containsNoFailure() and containsNoError()</td></tr>
+<tr><td>4/25/13</td><td>fix</td><td>tech</td><td></td><td>Fixed determination of Sun JAXB Marshaller implementation contained in JRE in JAXBMarshallerUtils.isSunJAXB2Marshaller()</td></tr>
+<tr><td>4/22/13</td><td>add</td><td>data</td><td></td><td>Added support for Mozilla Public License 1.0 and EUPL 1.2 in ELicense</td></tr>
+<tr><td>4/22/13</td><td>update</td><td>api</td><td></td><td>Made IResourceError, IResourceErrorGroup and IResourceLocation Serializable</td></tr>
+<tr><td>4/22/13</td><td>add</td><td>api</td><td></td><td>Added factory methods to FileFilterToIFilterAdapter</td></tr>
+<tr><td>4/22/13</td><td>add</td><td>api</td><td></td><td>Added constructors to FileSystemRecursiveIterator</td></tr>
+<tr><td>4/22/13</td><td>add</td><td>api</td><td></td><td>Added new classes FilenameFilterAlwaysTrue and FilenameFilterAlwaysFalse</td></tr>
+<tr><td>4/22/13</td><td>add</td><td>api</td><td></td><td>Added new classes FileFilterAlwaysTrue and FileFilterAlwaysFalse</td></tr>
+<tr><td>4/20/13</td><td>add</td><td>api</td><td></td><td>Made class AbstractNamespaceContext implement Serializable</td></tr>
+<tr><td>4/18/13</td><td>add</td><td>api</td><td></td><td>Added new class FilenameFilterNotEquals</td></tr>
+<tr border="1"><td>4/17/13</td><td colspan="4">_Release *4.0.3*_</td></tr>
+<tr><td>4/16/13</td><td>add</td><td>api</td><td></td><td>Further extended API of MapBasedXPathVariableResolver</td></tr>
+<tr><td>4/15/13</td><td>add</td><td>api</td><td></td><td>Added possibility to add and remove variables from MapBasedXPathVariableResolver</td></tr>
+<tr><td>4/15/13</td><td>add</td><td>api</td><td></td><td>Added possibility to determine if the AbstractJAXBMarshaller writes the output formatted or not</td></tr>
+<tr><td>4/15/13</td><td>add</td><td>api</td><td></td><td>Added method AbstractJAXBMarshaller.getAsXMLString</td></tr>
+<tr><td>4/15/13</td><td>add</td><td>api</td><td></td><td>Extended AbstractJAXBMarshaller to handle a single XML Schema resource</td></tr>
+<tr><td>4/15/13</td><td>change</td><td>api</td><td></td><td>Made API of MapBasedXPathVariableResolver constructor more flexible.</td></tr>
+<tr><td>4/12/13</td><td>add</td><td>api</td><td></td><td>Added new overloads of StringHelper.getImploded without a separator</td></tr>
+<tr><td>4/8/13</td><td>add</td><td>api</td><td></td><td>Added new classes DoNothingSAXErrorHandler and DoNothingTransformErrorListener</td></tr>
+<tr><td>4/8/13</td><td>add</td><td>api</td><td></td><td>Added MicroUtils.getChildTextContentTrimmed()</td></tr>
+<tr><td>4/8/13</td><td>add</td><td>api</td><td></td><td>Added IMicroNodeWithChildren.getTextContentTrimmed()</td></tr>
+<tr><td>4/5/13</td><td>change</td><td>api</td><td></td><td>Changed IMicroElement.getChildElements() to getAllChildElements()</td></tr>
+<tr><td>4/5/13</td><td>add</td><td>api</td><td></td><td>Added some more static methods in AbstractReadonlyAttributeContainer</td></tr>
+<tr border="1"><td>4/4/13</td><td colspan="4">_Release *4.0.2*_</td></tr>
+<tr><td>4/4/13</td><td>add</td><td>api</td><td></td><td>Added XMLWriterSettings option to disable emitting all namespace relevant XML stuff</td></tr>
+<tr><td>4/2/13</td><td>change</td><td>api</td><td></td><td>Moved main URL input stream handling from URLResource to URLUtils</td></tr>
+<tr border="1"><td>3/26/13</td><td colspan="4">_Release *4.0.1*_</td></tr>
+<tr><td>3/26/13</td><td>add</td><td>api</td><td>*yes*</td><td>Extended IMultiMapListBased with putSingle(KEYTYPE,VALUETYPE,int)</td></tr>
+<tr><td>3/26/13</td><td>add</td><td>api</td><td>*yes*</td><td>Extended IMultiMap with getOrCreate(KEYTYPE)</td></tr>
+<tr><td>3/25/13</td><td>add</td><td>api</td><td>*yes*</td><td>Added new method IWrapper.isSet()</td></tr>
+<tr><td>3/25/13</td><td>add</td><td>api</td><td></td><td>Extended URLResource.getInputStream to read the error stream fully in case of an error</td></tr>
+<tr><td>3/25/13</td><td>add</td><td>api</td><td></td><td>Extended URLResource.getInputStream to handle an optional Map`<`String,String`>` as request properties</td></tr>
+<tr><td>3/25/13</td><td>add</td><td>api</td><td></td><td>Added new class MessageDigestValue for storing digest algorithm and bytes</td></tr>
+<tr><td>3/25/13</td><td>add</td><td>api</td><td></td><td>Added new constructor URLResource(ISimpleURL)</td></tr>
+<tr><td>3/21/13</td><td>add</td><td>api</td><td></td><td>Added new static method URLResource.getAsURI</td></tr>
+<tr><td>3/21/13</td><td>add</td><td>tech</td><td></td><td>Improved SimpleLSResourceResolver to explicitly handle classpath resources</td></tr>
+<tr><td>3/21/13</td><td>add</td><td>api</td><td></td><td>Added new static method ClassPathResource.getWithoutClassPathPrefix</td></tr>
+<tr><td>3/21/13</td><td>fix</td><td>tech</td><td></td><td>Fixed version handling for ChangeLog object</td></tr>
+<tr><td>3/21/13</td><td>add</td><td>api</td><td></td><td>Deprecated class AbstractSchemaCache in favour of new class DefaultSchemaCache</td></tr>
+<tr><td>3/21/13</td><td>add</td><td>api</td><td></td><td>Added new annotation @IsLocked as the counterpart to @MustBeLocked</td></tr>
+<tr><td>3/21/13</td><td>change</td><td>tech</td><td></td><td>Made AbstractCache and all base-classes thread-safe</td></tr>
+<tr><td>3/15/13</td><td>add</td><td>api</td><td></td><td>Extended ITriState with method isDefined (as the inverse of isUndefined)</td></tr>
+<tr border="1"><td>3/13/13</td><td colspan="4">_Release *4.0.0*_</td></tr>
+<tr><td>3/13/13</td><td>add</td><td>api</td><td></td><td>Extended EJavaVersion API</td></tr>
+<tr><td>3/13/13</td><td>fix</td><td>test</td><td></td><td>Fixed tests so that they run with JDK 1.7.0`_`17</td></tr>
+<tr><td>3/13/13</td><td>add</td><td>api</td><td></td><td>Extended EJVMVendor with ORACLE`_`CLIENT and ORACLE`_`SERVER for Java 1.7</td></tr>
+<tr><td>3/13/13</td><td>add</td><td>api</td><td></td><td>Added new case insensitive methods in EErrorLevel</td></tr>
+<tr><td>3/12/13</td><td>add</td><td>api</td><td></td><td>Added new methods in MathHelper: isEqualTo(Zero|100)</td></tr>
+<tr><td>3/11/13</td><td>add</td><td>api</td><td></td><td>Added new declarative annotation @MustBeLocked to indicate that a method must be called inside a lock</td></tr>
+<tr><td>3/11/13</td><td>add</td><td>api</td><td></td><td>Added possibility to register custom mime type detectors for MimeTypeDeterminator</td></tr>
+<tr><td>3/9/13</td><td>add</td><td>api</td><td></td><td>Added new overloads in InputSourceFactory, TransformSourceFactory, StringStreamSource and StringSAXInputSource</td></tr>
+<tr><td>3/9/13</td><td>change</td><td>tech</td><td></td><td>Changed the handling of IMicroDocument.isStandalone - instead of determination it must now be set manually</td></tr>
+<tr><td>3/9/13</td><td>fix</td><td>tech</td><td></td><td>Fixed invalid XML when using our serializer with the setting PutNamespaceContextPrefixesInRoot enabled, and a mapping of the default namespace URL</td></tr>
+<tr><td>3/9/13</td><td>add</td><td>api</td><td></td><td>Added new method MapBasedNamespaceContext.setDefaultNamespaceURI()</td></tr>
+<tr><td>3/7/13</td><td>add</td><td>api</td><td></td><td>Added new annotation @Since</td></tr>
+<tr><td>3/6/13</td><td>add</td><td>api</td><td></td><td>Added new method StreamUtils.close(Socket)</td></tr>
+<tr><td>3/6/13</td><td>add</td><td>api</td><td></td><td>Added new methods in StreamUtils for identifying and creating buffered InputStream, OutputStream, Reader and Writer objects</td></tr>
+<tr><td>3/6/13</td><td>add</td><td>api</td><td></td><td>Added new classes NonBlockingBufferedInputStream and NonBlockingBufferedOutputStream</td></tr>
+<tr><td>3/6/13</td><td>add</td><td>api</td><td></td><td>Added support for memory mapped files in FileUtils (read and write)</td></tr>
+<tr><td>3/6/13</td><td>add</td><td>api</td><td></td><td>Added new ByteBuffer related classes: ByteBufferInputStream, ByteBuffersInputStream and ByteBufferOutputStream</td></tr>
+<tr><td>3/5/13</td><td>remove</td><td>api</td><td></td><td>Removed the Apache commons-primitive elements in favour of Trove4J</td></tr>
+<tr><td>3/4/13</td><td>update</td><td>performance</td><td></td><td>Improved reading Micro XML documents, by avoiding unnecessary String creations</td></tr>
+<tr><td>3/4/13</td><td>add</td><td>api</td><td></td><td>Added a new method StopWatch.restart()</td></tr>
+<tr><td>3/4/13</td><td>change</td><td>tech</td><td></td><td>Speed improvement in FileOperations.copyFile by using FileChannel instead of streams</td></tr>
+<tr><td>3/4/13</td><td>change</td><td>tech</td><td></td><td>Improved locking performance in StatisticsManager by first querying in a readLock</td></tr>
+<tr><td>3/4/13</td><td>add</td><td>api</td><td></td><td>Added new UTF-16`*` default charsets in CCharset</td></tr>
+<tr><td>3/4/13</td><td>change</td><td>api</td><td>*yes*</td><td>Deprecated FileUtils.safeEquals in favor of new special equals and hashCode implementations</td></tr>
+<tr><td>3/4/13</td><td>add</td><td>api</td><td></td><td>Added methods MicroWriter.writeToFile()</td></tr>
+<tr><td>3/4/13</td><td>change</td><td>api</td><td></td><td>Deprecated all methods taking a String as charset/encoding</td></tr>
+<tr><td>3/4/13</td><td>add</td><td>api</td><td></td><td>Added new class CommonsCleanup that clears all internal caches</td></tr>
+<tr><td>3/4/13</td><td>change</td><td>api</td><td></td><td>Extracted non-blocking versions of Bit(In|Out)putStream into base classes</td></tr>
+<tr><td>3/3/13</td><td>change</td><td>tech</td><td></td><td>Added special caching for enums implementing IHasSimpleIntID</td></tr>
+<tr><td>3/3/13</td><td>change</td><td>api</td><td></td><td>EMicroNodeType now implements IHasSimpleIntID</td></tr>
+<tr><td>3/3/13</td><td>add</td><td>api</td><td></td><td>Added new methods IMicroElement.getAllAttributeNames() and getAllAttributeValues()</td></tr>
+<tr><td>3/3/13</td><td>change</td><td>api</td><td></td><td>Renamed method IMicroElement.getAttributes() to getAllAttributes()</td></tr>
+<tr><td>3/2/13</td><td>add</td><td>api</td><td></td><td>Added some classes for handling real I18N from Apache Abdera</td></tr>
+<tr><td>2/27/13</td><td>add</td><td>api</td><td></td><td>Added new method ITreeItemWithID.getAllChildDataIDs ()</td></tr>
+<tr><td>2/25/13</td><td>add</td><td>data</td><td></td><td>Added new predefined license MPL 2.0</td></tr>
+<tr border="1"><td>2/24/13</td><td colspan="4">_Release *3.9.6*_</td></tr>
+<tr><td>2/21/13</td><td>add</td><td>api</td><td></td><td>Added LocaleFormatter.parseFloat</td></tr>
+<tr><td>2/21/13</td><td>add</td><td>api</td><td></td><td>Extended CompareUtils with special overloads for byte, char, int, long and short</td></tr>
+<tr><td>2/20/13</td><td>add</td><td>tech</td><td></td><td>Added possibility to put all namespace prefixes provided in a namespace context into the root document of a serialized XML document. This can be enabled via the XMLWriterSettings.</td></tr>
+<tr><td>2/20/13</td><td>add</td><td>api</td><td></td><td>Added new interface IIterableNamespaceContext</td></tr>
+<tr><td>2/20/13</td><td>change</td><td>api</td><td></td><td>Removed some hacks for non Java 1.6 API (like in DecimalFormatSymbolsFactory)</td></tr>
+<tr><td>2/20/13</td><td>change</td><td>api</td><td></td><td>Deprecated ServiceLoaderBackport - use the java.util.ServiceLoader instead</td></tr>
+<tr><td>2/19/13</td><td>add</td><td>api</td><td></td><td>Added new implementation classes StringSkipPrefixAndSuffixFormatter, StringSkipPrefixFormatter and StringSkipSuffixFormatter</td></tr>
+<tr><td>2/19/13</td><td>add</td><td>api</td><td></td><td>Added new implementation class ReverseComparator`<`T`>`</td></tr>
+<tr><td>2/19/13</td><td>add</td><td>api</td><td></td><td>Added new overload of StringHelper.getCutAfterLength</td></tr>
+<tr><td>2/19/13</td><td>add</td><td>api</td><td></td><td>Added new interface IHasAttributeValue and extended IMicroElement to handle this</td></tr>
+<tr><td>2/19/13</td><td>add</td><td>api</td><td></td><td>Added new interface IHasElementName and extended IMicroNode and MicroElement to handle this</td></tr>
+<tr><td>2/19/13</td><td>change</td><td>tech</td><td>*yes*</td><td>Made IdentityEncoder and IdentityDecoder singleton objects</td></tr>
+<tr><td>2/18/13</td><td>change</td><td>api</td><td></td><td>Extracted URLUtils.getQueryStringAsMap()</td></tr>
+<tr><td>2/18/13</td><td>change</td><td>api</td><td>*yes*</td><td>Moved getTextContentWithConversion() from IMicroElement up to IMicroNodeWithChildren</td></tr>
+<tr><td>2/16/13</td><td>add</td><td>tech</td><td></td><td>Added ServiceLoaderUtils for easy loading of SPI implementations via ServiceLoaderBackport</td></tr>
+<tr><td>2/16/13</td><td>add</td><td>api</td><td></td><td>Added MathHelper.getUnsignedInt() for converting a signed int to an unsigned representation as long</td></tr>
+<tr border="1"><td>2/14/13</td><td colspan="4">_Release *3.9.5*_</td></tr>
+<tr><td>2/14/13</td><td>change</td><td>api</td><td>*yes*</td><td>Moved getTextContent() from IMicroElement up to IMicroNodeWithChildren</td></tr>
+<tr><td>2/5/13</td><td>add</td><td>api</td><td></td><td>Extended MathHelper with comparison methods for 100 (e.g. used for percentage)</td></tr>
+<tr><td>2/5/13</td><td>add</td><td>api</td><td></td><td>Extended StringParser.parseBigDecimal with versions that support scale and rounding mode</td></tr>
+<tr><td>1/31/13</td><td>add</td><td>api</td><td></td><td>Extended tree item with getParentData and getParentID (where applicable)</td></tr>
+<tr><td>1/28/13</td><td>add</td><td>api</td><td></td><td>Added new StringHelper methods like getReverse(String) or getIndexOf(String,int,String) etc.</td></tr>
+<tr><td>1/28/13</td><td>add</td><td>api</td><td></td><td>Extended NonBlockingByteArrayOutputStream with some sanity methods like startsWith and getByteAt</td></tr>
+<tr border="1"><td>1/24/13</td><td colspan="4">_Release *3.9.4*_</td></tr>
+<tr><td>1/24/13</td><td>update</td><td>tech</td><td></td><td>Updated @Nonnull(@When) annotations to have no annotations at all</td></tr>
+<tr><td>1/21/13</td><td>change</td><td>api</td><td>*yes*</td><td>Replaced ComparatorTreeItem(WithID)Value(Comparable) with ComparatorTreeItem(WithID)Data(Comparable) and extended constructors</td></tr>
+<tr><td>1/18/13</td><td>add</td><td>api</td><td></td><td>Fixed consistency error in BasicTreeItemWithID when removing a child (child items were left in the factory)</td></tr>
+<tr><td>1/18/13</td><td>add</td><td>api</td><td></td><td>Extended tree and tree item API to more easily access the data element</td></tr>
+<tr><td>1/18/13</td><td>add</td><td>api</td><td></td><td>Added new interface IHasDescription</td></tr>
+<tr border="1"><td>1/10/13</td><td colspan="4">_Release *3.9.3*_</td></tr>
+<tr><td>1/9/13</td><td>add</td><td>api</td><td></td><td>Added new class DateFormatSymbolsFactory working like DecimalFormatSymbolsFactors but for DateFormatSymbols</td></tr>
+<tr><td>1/9/13</td><td>add</td><td>api</td><td></td><td>Added new package com.phloc.commons.collections.flags</td></tr>
+<tr><td>1/7/13</td><td>update</td><td>api</td><td></td><td>Improved `*`AttributeContainer implementations slightly</td></tr>
+<tr><td>12/31/12</td><td>add</td><td>api</td><td></td><td>Added EBaseType from [http://code.google.com/p/phloc-commons phloc-types] as the rest of the library is very rarely used</td></tr>
+<tr><td>12/19/12</td><td>add</td><td>api</td><td></td><td>Extended IReadonlyAttributeContainer with two methods getTypedAttribute invoking the TypeConverter</td></tr>
+<tr><td>12/19/12</td><td>add</td><td>api</td><td></td><td>Slightly extended API of NonBlockingStack (top and replaceTopElement were added)</td></tr>
+<tr><td>12/18/12</td><td>add</td><td>api</td><td></td><td>Added possibility to enable or disable consistency checks in TextProvider</td></tr>
+<tr border="1"><td>11/26/12</td><td colspan="4">_Release *3.9.2*_</td></tr>
+<tr><td>11/26/12</td><td>remove</td><td>api</td><td>*yes*</td><td>Moved Graph and Matrix API to new project [http://code.google.com/p/phloc-math phloc-math]</td></tr>
+<tr><td>11/20/12</td><td>update</td><td>tech</td><td></td><td>Improved PhlocTestUtils.testMicroTypeConversion to compare the XML-String representation</td></tr>
+<tr><td>11/19/12</td><td>add</td><td>api</td><td></td><td>Extended IAttributeContainer API to have a sanity wrapper for boolean as well as a method to set multiple attributes at once</td></tr>
+<tr><td>11/19/12</td><td>add</td><td>api</td><td></td><td>Added some Graph algorithms (shortest path and minimum spanning tree)</td></tr>
+<tr><td>11/19/12</td><td>add</td><td>api</td><td></td><td>Extended GraphNode API slightly</td></tr>
+<tr border="1"><td>11/5/12</td><td colspan="4">_Release *3.9.1*_</td></tr>
+<tr><td>11/5/12</td><td>add</td><td>api</td><td></td><td>Added new (Directed)Graph(Relation|Node)Fast implementations, with quicker but not 100% accurate equals and hashCode implementation</td></tr>
+<tr><td>11/5/12</td><td>add</td><td>api</td><td></td><td>All XML serialization enums now implement IHasID`<`String`>`</td></tr>
+<tr><td>11/5/12</td><td>change</td><td>api</td><td>*yes*</td><td>Changed the EXMLSerializeFormat to differentiate between HTML and XHTML</td></tr>
+<tr><td>11/5/12</td><td>update</td><td>tech</td><td></td><td>Improved HTML serialization by adding special handling for non-closed tags</td></tr>
+<tr border="1"><td>10/25/12</td><td colspan="4">_Release *3.9.0*_</td></tr>
+<tr><td>10/25/12</td><td>add</td><td>api</td><td></td><td>Integrated the primitive collections from Apache commons-primitive in a Java5 type-safe version!</td></tr>
+<tr><td>10/24/12</td><td>add</td><td>api</td><td></td><td>Added some MathHelper methods to easily compare BigDecimal and BigInteger to zero</td></tr>
+<tr><td>10/24/12</td><td>change</td><td>api</td><td></td><td>Made all constants except the logger public in class AbstractPhlocTestCase</td></tr>
+<tr><td>10/18/12</td><td>add</td><td>api</td><td></td><td>Added new Iterator-like implementations for array of primitive types (e.g. ArrayIteratorBoolean) incl. the respective interfaces</td></tr>
+<tr><td>10/18/12</td><td>add</td><td>tech</td><td></td><td>Added new default type converter rules to primitive arrays (e.g. int[]) and String arrays</td></tr>
+<tr><td>10/12/12</td><td>add</td><td>api</td><td></td><td>Added new methods IReadonlyAttributeContainer.getAttributeAsLong</td></tr>
+<tr><td>10/12/12</td><td>add</td><td>api</td><td></td><td>Added new methods IAttributeContainer.setAttribute with value types int, long and double</td></tr>
+<tr><td>10/10/12</td><td>add</td><td>api</td><td></td><td>Added new default MIME type CMimeType.IMAGE`_`WEBP</td></tr>
+<tr><td>10/9/12</td><td>change</td><td>api</td><td>*yes*</td><td>Separated graph API to differentiate between directed graphs and undirected graphs</td></tr>
+<tr><td>10/9/12</td><td>change</td><td>api</td><td>*yes*</td><td>Removed Generics and value from GraphNode because it can be handled more flexible with the attributes</td></tr>
+<tr border="1"><td>10/9/12</td><td colspan="4">_Release *3.8.5*_</td></tr>
+<tr><td>10/8/12</td><td>add</td><td>api</td><td></td><td>Started some very basic GraphViz wrapping API</td></tr>
+<tr><td>10/8/12</td><td>add</td><td>api</td><td></td><td>Added new method NonBlockingByteArrayOutputStream.writeToAndClose</td></tr>
+<tr><td>10/8/12</td><td>fix</td><td>tech</td><td></td><td>Fixed bug in graph cycle detection in certain cases</td></tr>
+<tr><td>10/6/12</td><td>add</td><td>api</td><td></td><td>Extended graph API slightly</td></tr>
+<tr><td>10/5/12</td><td>change</td><td>api</td><td></td><td>Made some classes ins packages c.p.c.url.encode, c.p.c.xml, c.p.c.xml.namespace, c.p.c.xml.sax and c.p.c.xml.transform non-final</td></tr>
+<tr><td>10/5/12</td><td>add</td><td>api</td><td></td><td>Made XPathHelper and XMLTransformerFactory more flexible</td></tr>
+<tr><td>10/4/12</td><td>change</td><td>tech</td><td>*yes*</td><td>Fixed an error in XML writing, when an empty namespace was used inside a non-empty namespace, 
+the namespace was inherited anyway. Example:
+new MicroElement("uri1", "a").appendElement ("b")
+was serialized as
+`<`a xmlns="uri1"`>``<`b /`>``<`/a`>`
+after the fix it is serialized as
+`<`a xmlns="uri1"`>``<`ns0:b xmlns:ns0=""/`>``<`/a`>`
+to have the previous result use
+new MicroElement("uri1", "a").appendElement ("uri1", "b")</td></tr>
+<tr><td>10/1/12</td><td>add</td><td>api</td><td>*yes*</td><td>Extended IHasChildrenSorted to have a getFirstChild and getLastChild method</td></tr>
+<tr><td>10/1/12</td><td>add</td><td>api</td><td></td><td>Re-added FindBugs @SuppressWarnings annotation, because some errors cannot be suppressed with an @SuppressFBWarnings :(</td></tr>
+<tr><td>9/30/12</td><td>add</td><td>api</td><td></td><td>Added new method StringHelper.getWithoutAnySpaces</td></tr>
+<tr><td>9/29/12</td><td>add</td><td>api</td><td></td><td>Added StringHelper.getHexDecoded(char[],int,int) method</td></tr>
+<tr><td>9/26/12</td><td>add</td><td>api</td><td></td><td>Extended XMLReader DOM API to pass a custom entity resolver</td></tr>
+<tr><td>9/26/12</td><td>add</td><td>api</td><td></td><td>Extended XMLReader API to pass arbitrary features to the SAX reader</td></tr>
+<tr><td>9/26/12</td><td>change</td><td>api</td><td></td><td>Extended XMLFactory with APIs to use a custom document builder factory and a custom document builder.</td></tr>
+<tr><td>9/26/12</td><td>change</td><td>api</td><td></td><td>Made XMLSchemaCache non-public</td></tr>
+<tr border="1"><td>9/20/12</td><td colspan="4">_Release *3.8.4*_</td></tr>
+<tr><td>9/20/12</td><td>fix</td><td>performance</td><td></td><td>XMLHelper.isInvalidXMLCharacter(char) is now quicker</td></tr>
+<tr><td>9/19/12</td><td>add</td><td>api</td><td></td><td>Added new annotation @UseDirectEqualsAndHashCode that prevents (Equals|HashCode)ImplementationRegistry to search for converters.</td></tr>
+<tr><td>9/19/12</td><td>fix</td><td>performance</td><td></td><td>Fixed performance issues in EqualsImplementationRegistry and HashCodeImplementationRegistry</td></tr>
+<tr><td>9/19/12</td><td>add</td><td>api</td><td></td><td>Added new Comparator classes ComparatorDisplayNameProvider and ComparatorDisplayTextProvider</td></tr>
+<tr><td>9/19/12</td><td>add</td><td>api</td><td></td><td>Extended ContainerHelper API to handle the sort order when sorting maps by key or by value without Comparator</td></tr>
+<tr border="1"><td>9/18/12</td><td colspan="4">_Release *3.8.3*_</td></tr>
+<tr><td>9/18/12</td><td>add</td><td>api</td><td></td><td>Added new method IAttributeContainer.getAndSetAttributeFlag(String) for some simplifications</td></tr>
+<tr><td>9/18/12</td><td>change</td><td>api</td><td></td><td>Made class Wrapper non-final for simple reuse</td></tr>
+<tr><td>9/15/12</td><td>fix</td><td>tech</td><td></td><td>Fixed IllegalArgumentException thrown from ClassPathResource.getAsFile because of non-file URL</td></tr>
+<tr><td>9/15/12</td><td>fix</td><td>tech</td><td></td><td>Fixed implementation of MapBasedAttributeContainer and MapBasedReadonlyAttributeContainer so that the getAll... methods really delivers a copy</td></tr>
+<tr><td>9/13/12</td><td>add</td><td>api</td><td></td><td>Extended LogUtils with overloads for IHasErrorLevel</td></tr>
+<tr><td>9/10/12</td><td>change</td><td>api</td><td></td><td>ITextProvider is now Serializable</td></tr>
+<tr><td>9/10/12</td><td>add</td><td>api</td><td></td><td>Extended LogUtils with an isEnabled method</td></tr>
+<tr><td>9/10/12</td><td>fix</td><td>api</td><td></td><td>One constructor of AbstractCollationComparator was not passing on the nested Comparator</td></tr>
+<tr border="1"><td>9/10/12</td><td colspan="4">_Release *3.8.2*_</td></tr>
+<tr><td>9/10/12</td><td>change</td><td>api</td><td></td><td>Deprecated ClassHelper.getClassHierarchy - solely using the ClassHierarchyCache</td></tr>
+<tr><td>9/9/12</td><td>add</td><td>api</td><td></td><td>Extracted class hierarchy cache from ClassHelper into a separate class with correct WeakReference handling</td></tr>
+<tr><td>9/9/12</td><td>remove</td><td>api</td><td></td><td>Removed SoftHashMap because I didn't understand it, and it was causing troubles in production!</td></tr>
+<tr border="1"><td>9/7/12</td><td colspan="4">_Release *3.8.1*_</td></tr>
+<tr><td>9/7/12</td><td>add</td><td>api</td><td></td><td>Using the new overloads of StringHelper.getExploded... for performance reasons</td></tr>
+<tr><td>9/7/12</td><td>add</td><td>api</td><td></td><td>Added new overloads of StringHelper.getExploded... taking char separators (better performance), having a limit (like in RegExHelper.getSplitToArray) or returning an array of String</td></tr>
+<tr border="1"><td>9/6/12</td><td colspan="4">_Release *3.8.0*_</td></tr>
+<tr border="1"><td>9/5/12</td><td colspan="4">_Release *3.8.0.RC1*_</td></tr>
+<tr><td>9/5/12</td><td>add</td><td>api</td><td></td><td>Added caching of class hierarchy</td></tr>
+<tr><td>9/5/12</td><td>remove</td><td>api</td><td>*yes*</td><td>Removed all previously @Deprecated methods</td></tr>
+<tr><td>9/4/12</td><td>add</td><td>api</td><td></td><td>Added new method NonBlockingByteArrayOutputStream.getBufferSize</td></tr>
+<tr><td>9/3/12</td><td>add</td><td>api</td><td></td><td>Added new methods MathHelper.abs(Big(Decimal|Integer)) and MathHelper.get(Max|Min)Big(Decimal|Integer)</td></tr>
+<tr><td>9/3/12</td><td>add</td><td>api</td><td></td><td>Added new methods ArrayHelper.isNotEmpty</td></tr>
+<tr><td>9/3/12</td><td>add</td><td>api</td><td></td><td>Added new methods ContainerHelper.isNotEmpty</td></tr>
+<tr><td>9/1/12</td><td>add</td><td>api</td><td></td><td>Extended API of IURLData</td></tr>
+<tr border="1"><td>8/29/12</td><td colspan="4">_Release *3.7.5*_</td></tr>
+<tr><td>8/29/12</td><td>change</td><td>tech</td><td></td><td>The suggested XML writer settings are now the default settings.</td></tr>
+<tr><td>8/29/12</td><td>add</td><td>api</td><td></td><td>Added possibility in IMicroText objects to emit the text unescaped (for HTML style and script elements)</td></tr>
+<tr><td>8/29/12</td><td>add</td><td>api</td><td></td><td>Changed DebugModeTestRule so that the states can be passed in the ctor and after a test, the values are restored to a previous state</td></tr>
+<tr><td>8/28/12</td><td>change</td><td>api</td><td></td><td>Made SMap a LinkedHashMap instead of a HashMap for consistent results</td></tr>
+<tr><td>8/28/12</td><td>add</td><td>api</td><td></td><td>Added new StringHelper methods getLastIndexOf..., getFromLast and getUntilLast</td></tr>
+<tr><td>8/28/12</td><td>add</td><td>api</td><td></td><td>Added new methods ArrayHelper.getFirstIndex(T[],T), getLastIndex(T[],T) and getExcept(T[],T[])</td></tr>
+<tr border="1"><td>8/23/12</td><td colspan="4">_Release *3.7.4*_</td></tr>
+<tr><td>8/23/12</td><td>add</td><td>api</td><td></td><td>Added new method BooleanHelper.getBooleanValue</td></tr>
+<tr><td>8/22/12</td><td>fix</td><td>api</td><td></td><td>Fixed StringHelper.getImplodedNonEmpty with array arguments - all elements were displayed</td></tr>
+<tr><td>8/20/12</td><td>add</td><td>api</td><td></td><td>Added new StringParser methods parseBoolObjExact</td></tr>
+<tr border="1"><td>8/18/12</td><td colspan="4">_Release *3.7.3*_</td></tr>
+<tr><td>8/18/12</td><td>add</td><td>api</td><td></td><td>Added RegEx based URL validator</td></tr>
+<tr><td>8/17/12</td><td>add</td><td>api</td><td></td><td>Added SystemProperties retrieval method without logged warning</td></tr>
+<tr><td>8/17/12</td><td>change</td><td>api</td><td></td><td>Finally made the get...TextWithArgs handling consistent. Technically you can pass null to the arguments array, but practically this makes no sense, as in the case you may call the get...Text method directly. But technically speaking you can do that</td></tr>
+<tr><td>8/16/12</td><td>add</td><td>api</td><td></td><td>Added SecurityManager enabled ClassLoader retrieval in ClassHelper</td></tr>
+<tr><td>8/15/12</td><td>change</td><td>api</td><td></td><td>Extracted new JUnit TestRule class DebugModeTestRule</td></tr>
+<tr border="1"><td>8/15/12</td><td colspan="4">_Release *3.7.2*_</td></tr>
+<tr><td>8/15/12</td><td>change</td><td>api</td><td></td><td>Separated dead lock detector from scheduled dead lock detection</td></tr>
+<tr><td>8/14/12</td><td>add</td><td>api</td><td></td><td>Extended GlobalIDFactory to bulk create multiple IDs at once</td></tr>
+<tr><td>8/14/12</td><td>add</td><td>api</td><td></td><td>Added new package deadlock with JMX based deadlock detector</td></tr>
+<tr><td>8/14/12</td><td>add</td><td>api</td><td></td><td>Added new class StringWriterProvider</td></tr>
+<tr><td>8/14/12</td><td>change</td><td>api</td><td></td><td>RegExPattern consistency checks can now manually be enabled/disabled and executed publically</td></tr>
+<tr border="1"><td>8/10/12</td><td colspan="4">_Release *3.7.1*_</td></tr>
+<tr><td>8/10/12</td><td>add</td><td>api</td><td></td><td>Added new static methods in FileSystemResource</td></tr>
+<tr><td>8/9/12</td><td>add</td><td>tech</td><td></td><td>Added read/write check in File based ID providers and in FileSystemResourceProvider</td></tr>
+<tr><td>8/9/12</td><td>add</td><td>api</td><td></td><td>Added new method FileUtils.canReadAndWriteFile and using it in the File(Int|Long)IDFactory</td></tr>
+<tr><td>8/3/12</td><td>update</td><td>performance</td><td></td><td>FileOperations.copyFile now uses Buffered(Input|Output)Stream for better performance</td></tr>
+<tr><td>8/2/12</td><td>add</td><td>api</td><td></td><td>Added new StringHelper methods getImploded(NonEmpty) using a char as separator</td></tr>
+<tr border="1"><td>7/30/12</td><td colspan="4">_Release *3.7.0*_</td></tr>
+<tr><td>7/30/12</td><td>add</td><td>api</td><td></td><td>Added class AbstractFilter encapsulating a nested filter</td></tr>
+<tr><td>7/30/12</td><td>change</td><td>api</td><td>*yes*</td><td>Renamed class TypeConverterProviderExactBeforeFuzzy to TypeConverterProviderBestMatch</td></tr>
+<tr><td>7/30/12</td><td>add</td><td>api</td><td></td><td>Added new methods in class StringHelper</td></tr>
+<tr><td>7/30/12</td><td>add</td><td>api</td><td></td><td>Extended GlobalIDFactory API to retrieve and check for all contained ID factories</td></tr>
+<tr><td>7/30/12</td><td>add</td><td>api</td><td></td><td>Extended GlobalIDFactory to also handle long based IDs and created factories as they are present for int IDs</td></tr>
+<tr><td>7/28/12</td><td>add</td><td>tech</td><td></td><td>Added some type converters for Date and Calendar to and from String and Long</td></tr>
+<tr><td>7/28/12</td><td>add</td><td>api</td><td></td><td>Added VendorInfo methods to retrieve vendor URL without protocol, the email address suffix and the vendor location</td></tr>
+<tr border="1"><td>7/28/12</td><td colspan="4">_Release *3.7.0.RC1*_</td></tr>
+<tr><td>7/28/12</td><td>change</td><td>api</td><td></td><td>Improved VendorInfo to support custom inception year and adopted file header lines</td></tr>
+<tr><td>7/28/12</td><td>add</td><td>api</td><td></td><td>Added new methods new...Vector(array) and newVector(...)</td></tr>
+<tr><td>7/28/12</td><td>add</td><td>api</td><td></td><td>Added new interface method IMultiMap.getTotalValueCount()</td></tr>
+<tr><td>7/28/12</td><td>add</td><td>api</td><td></td><td>Added multi map implementations based on WekHashMap</td></tr>
+<tr><td>7/28/12</td><td>add</td><td>api</td><td></td><td>Extracted the parsing functionality from StringHelper to StringParser</td></tr>
+<tr><td>7/28/12</td><td>add</td><td>api</td><td></td><td>Extended StringHelper to support parsing String to short/Short</td></tr>
+<tr><td>7/27/12</td><td>add</td><td>api</td><td></td><td>Added new constructors for ClassPathResource and FileSystemResource</td></tr>
+<tr><td>7/27/12</td><td>change</td><td>api</td><td>*yes*</td><td>Removed ITypeConverterUpCast interface and added more flexible ITypeConverterRule interface</td></tr>
+<tr><td>7/27/12</td><td>add</td><td>tech</td><td></td><td>Added some new type converter implementations</td></tr>
+<tr><td>7/26/12</td><td>add</td><td>api</td><td></td><td>Added new methods TypeConverter.convertTo(Boolean|Byte|Char|Double|Float|Int|Long|Short)</td></tr>
+<tr><td>7/26/12</td><td>add</td><td>api</td><td></td><td>All Mutable`*` classes except MutableBoolean are now derived from Number</td></tr>
+<tr><td>7/26/12</td><td>add</td><td>api</td><td></td><td>Most Mutable`*` classes implement the new IMutable, IMutableNumeric and IMutableInteger interfaces</td></tr>
+<tr><td>7/26/12</td><td>add</td><td>api</td><td></td><td>MutableBoolean now implements Comparable</td></tr>
+<tr><td>7/26/12</td><td>add</td><td>api</td><td></td><td>Added new methods FileUtils.can(Read|Write|Execute) with File parameter</td></tr>
+<tr><td>7/26/12</td><td>add</td><td>api</td><td></td><td>Added new classes XPathHelper and XPathExpressionHelper to easily handle XPath queries</td></tr>
+<tr><td>7/26/12</td><td>add</td><td>api</td><td></td><td>Extended FileSystemResource with methods can(Read|Write|Execute)</td></tr>
+<tr><td>7/26/12</td><td>add</td><td>api</td><td></td><td>Extended TimeValue API with getAs... methods</td></tr>
+<tr><td>7/26/12</td><td>add</td><td>api</td><td></td><td>LogMessage is now implementing the interfaces ISuccessIndicator and IErrorIndicator</td></tr>
+<tr><td>7/26/12</td><td>add</td><td>api</td><td></td><td>InMemoryLogger now implements the interface IHasErrorLevels</td></tr>
+<tr><td>7/26/12</td><td>add</td><td>api</td><td></td><td>Extracted new interface IHasErrorLevels from IResourceErrorGroup and extended it with the methods get(Success|Failure|Error)Count</td></tr>
+<tr><td>7/26/12</td><td>add</td><td>api</td><td></td><td>Added new class MapBasedXPathVariableResolver</td></tr>
+<tr><td>7/25/12</td><td>add</td><td>api</td><td></td><td>Added class ThreadUtils for some threading simplifications</td></tr>
+<tr><td>7/25/12</td><td>add</td><td>api</td><td></td><td>Extended MicroReader and XMLReader to directly handle byte[] as an argument</td></tr>
+<tr><td>7/23/12</td><td>add</td><td>api</td><td></td><td>Extended VendorInfo to support getter and setter</td></tr>
+<tr border="1"><td>7/19/12</td><td colspan="4">_Release *3.6.6*_</td></tr>
+<tr><td>7/19/12</td><td>add</td><td>api</td><td></td><td>Added methods to InputSourceFactory and TransformSourceFactory taking byte[]</td></tr>
+<tr><td>7/19/12</td><td>add</td><td>tech</td><td></td><td>Added permission check handling in class FileOperations</td></tr>
+<tr><td>7/19/12</td><td>add</td><td>api</td><td></td><td>Added new methods FileUtils.getDirectoryContent(File) encapsulating the File.listFiles method</td></tr>
+<tr><td>7/19/12</td><td>add</td><td>api</td><td></td><td>Added enum members in EFileIOErrorCode</td></tr>
+<tr><td>7/19/12</td><td>change</td><td>tech</td><td></td><td>Added check for writable parent directory in FileUtils.getOutputStream</td></tr>
+<tr><td>7/19/12</td><td>change</td><td>tech</td><td></td><td>Made SimpleFileIO.writeFile methods correctly handle null OutputStreams if opening a file for writing fails</td></tr>
+<tr><td>7/17/12</td><td>change</td><td>tech</td><td></td><td>Made TypeConverterRegistry thread safe</td></tr>
+<tr><td>7/17/12</td><td>add</td><td>api</td><td></td><td>Added new method MicroTypeConverterRegistry.getRegisteredMicroTypeConverterCount</td></tr>
+<tr><td>7/17/12</td><td>add</td><td>api</td><td></td><td>Added new method TypeConverterRegistry.getRegisteredTypeConverterCount</td></tr>
+<tr border="1"><td>7/17/12</td><td colspan="4">_Release *3.6.5*_</td></tr>
+<tr><td>7/17/12</td><td>change</td><td>api</td><td></td><td>Added Locale to all formatting methods of RoundHelper</td></tr>
+<tr><td>7/17/12</td><td>change</td><td>tech</td><td></td><td>Fixed JUnit tests on Ubuntu 12.4</td></tr>
+<tr><td>7/12/12</td><td>change</td><td>tech</td><td></td><td>Updated to new @SuppressFBWarnings annotation from FindBugs 2.0 and deprecated old @SuppressWarnings annotation</td></tr>
+<tr border="1"><td>7/10/12</td><td colspan="4">_Release *3.6.4*_</td></tr>
+<tr><td>7/10/12</td><td>add</td><td>api</td><td></td><td>Added new interface IHasWidthAndHeight</td></tr>
+<tr><td>7/10/12</td><td>change</td><td>tech</td><td></td><td>Made DebugInputStream and DebugOutputStream API more flexible</td></tr>
+<tr><td>7/10/12</td><td>add</td><td>api</td><td></td><td>Added new interface IHasResourceError</td></tr>
+<tr><td>7/9/12</td><td>add</td><td>api</td><td></td><td>Added some more factory methods in FileSystemRecursiveIterator</td></tr>
+<tr><td>7/9/12</td><td>update</td><td>api</td><td></td><td>Ensured that all getDisplayTextWithArgs methods require non-null arguments</td></tr>
+<tr><td>7/9/12</td><td>add</td><td>tech</td><td></td><td>Added possibility in XMLEmitterPhloc to customize the handling of nested comments</td></tr>
+<tr><td>7/9/12</td><td>change</td><td>api</td><td></td><td>Renamed some methods in RegExHelper to match the naming conventions</td></tr>
+<tr><td>7/9/12</td><td>add</td><td>api</td><td></td><td>Added new methods RegExHelper.getAsIdentifier to pass custom replacement character/string</td></tr>
+<tr border="1"><td>6/29/12</td><td colspan="4">_Release *3.6.3*_</td></tr>
+<tr><td>6/29/12</td><td>change</td><td>api</td><td>*yes*</td><td>Moved static methods from ComparatorPair(First|Second) to new PairUtils class</td></tr>
+<tr><td>6/29/12</td><td>add</td><td>api</td><td></td><td>Added some more Comparator implementations and aligned Comparator hierarchy</td></tr>
+<tr><td>6/29/12</td><td>add</td><td>api</td><td></td><td>Added the possibility for all AbstractComparator implementations to pass nested comparators that are invoked in case the main comparison returned 0</td></tr>
+<tr><td>6/29/12</td><td>add</td><td>api</td><td></td><td>Added new FilenameFilter implementations FilenameFilterEquals, FilenameFilterEqualsIgnoreCase and FilenameFilterStartsWith</td></tr>
+<tr><td>6/29/12</td><td>change</td><td>api</td><td></td><td>Moved all anonymous classes from FilenameFilterFactory to separate files and deprecated FilenameFilterFactory</td></tr>
+<tr><td>6/29/12</td><td>add</td><td>api</td><td></td><td>Extended FileSystemFolderTree constructors to also handle FilenameFilters</td></tr>
+<tr><td>6/29/12</td><td>change</td><td>api</td><td></td><td>Extracted anonymous IFilter implementations within XMLHelper into named classes</td></tr>
+<tr><td>6/29/12</td><td>change</td><td>api</td><td>*yes*</td><td>Made FileFilterDirectoryOnly, FileFilterDirectoryPublic, FileFilterFileOnly and FileFilterParentDirectoryPublic singletons</td></tr>
+<tr><td>6/29/12</td><td>change</td><td>api</td><td>*yes*</td><td>Made FilterTrue, FilterFalse, FilterNull and FilterNotNull singletons</td></tr>
+<tr><td>6/29/12</td><td>add</td><td>api</td><td></td><td>Added new method StopWatch.isStopped()</td></tr>
+<tr><td>6/29/12</td><td>add</td><td>api</td><td></td><td>Added new method StringHelper.replaceMutliple(String,String[],String[])</td></tr>
+<tr><td>6/29/12</td><td>add</td><td>api</td><td></td><td>Added new class NonBlockingStringWriter</td></tr>
+<tr><td>6/28/12</td><td>change</td><td>api</td><td></td><td>Improved @Nullable annotation handling and made more flexible</td></tr>
+<tr><td>6/27/12</td><td>change</td><td>api</td><td></td><td>Made EURLProtocol binary compatible with v3.6.1</td></tr>
+<tr border="1"><td>6/27/12</td><td colspan="4">_Release *3.6.2*_</td></tr>
+<tr><td>6/27/12</td><td>change</td><td>api</td><td></td><td>Extracted AbstractSimpleURL abstract base class</td></tr>
+<tr><td>6/27/12</td><td>add</td><td>api</td><td>*yes*</td><td>Extended IURLData with getProcotol() and hasKnownProtocol()</td></tr>
+<tr><td>6/27/12</td><td>add</td><td>api</td><td></td><td>Added new URL protocol handlers to register custom protocols via URLProtocolRegistry</td></tr>
+<tr border="1"><td>6/25/12</td><td colspan="4">_Release *3.6.1*_</td></tr>
+<tr><td>6/25/12</td><td>add</td><td>api</td><td></td><td>Extended InputSourceFactory with 2 new overloads</td></tr>
+<tr><td>6/25/12</td><td>add</td><td>api</td><td></td><td>Added new class TransformSourceFactory to create javax.xml.transform.Source for different input types (comparable to InputSourceFactory)</td></tr>
+<tr><td>6/25/12</td><td>add</td><td>api</td><td></td><td>Further extended IGraphNode API</td></tr>
+<tr><td>6/23/12</td><td>change</td><td>api</td><td></td><td>Replaced ArrayHelper.newArray(ELEMENTTYPE[],int) with newArraySameType because of potential misunderstanding</td></tr>
+<tr><td>6/23/12</td><td>change</td><td>api</td><td></td><td>Replaced ArrayHelper.newArray(ELEMENTTYPE,Class) with newArraySingleElement because of potential name clashes with newArray(ELEMENTTYPE...)</td></tr>
+<tr><td>6/23/12</td><td>add</td><td>tech</td><td></td><td>Added default equals/hashCode implementations for Iterator and Enumeration</td></tr>
+<tr><td>6/23/12</td><td>add</td><td>api</td><td></td><td>Extended ContainerHelper with method getEnumeration(Map`<`?,?`>`)</td></tr>
+<tr><td>6/23/12</td><td>add</td><td>api</td><td></td><td>Added new class ContainerEqualsUtils that compares container contents not strictly by class</td></tr>
+<tr><td>6/23/12</td><td>add</td><td>api</td><td></td><td>Extended ContainerHelper with newQueue methods</td></tr>
+<tr><td>6/23/12</td><td>change</td><td>tech</td><td>*yes*</td><td>Made NonBlockingStack derive from AbstractList instead of AbstractCollection so that is better comparable to java.util.Stack which is derived from Vector!</td></tr>
+<tr><td>6/20/12</td><td>add</td><td>api</td><td></td><td>Extended Graph API in several places and introduced new ISimpleGraph interface</td></tr>
+<tr><td>6/20/12</td><td>change</td><td>api</td><td></td><td>Deprecated size() and isEmpty() in I(Readonly)AttributeContainer as these names are not specific enough. Instead getAttributeCount() and containsNoAttributes() methods were introduced</td></tr>
+<tr><td>6/18/12</td><td>change</td><td>tech</td><td></td><td>Using the new Version constructor to read ChangeLog release versions</td></tr>
+<tr border="1"><td>6/18/12</td><td colspan="4">_Release *3.6.0*_</td></tr>
+<tr><td>6/18/12</td><td>update</td><td>tech</td><td></td><td>Extended version parser to handle incorrect versions better and to handle the dash character as a separator</td></tr>
+<tr><td>6/18/12</td><td>add</td><td>api</td><td></td><td>Added new method RegExHelper.getAllMatchingGroupValues</td></tr>
+<tr><td>6/15/12</td><td>add</td><td>api</td><td></td><td>Added new class DoNothingExceptionHandler</td></tr>
+<tr border="1"><td>6/15/12</td><td colspan="4">_Release *3.6.0.RC3*_</td></tr>
+<tr><td>6/15/12</td><td>fix</td><td>api</td><td></td><td>Fixed error in PhlocTestUtils.testGetClone declaration</td></tr>
+<tr border="1"><td>6/15/12</td><td colspan="4">_Release *3.6.0.RC2*_</td></tr>
+<tr><td>6/15/12</td><td>add</td><td>api</td><td></td><td>MicroWriter and XMLWriter now have an API to write on a Writer as well</td></tr>
+<tr><td>6/15/12</td><td>change</td><td>api</td><td>*yes*</td><td>Added new interfaces IReaderProvider IWriterProvider</td></tr>
+<tr><td>6/15/12</td><td>change</td><td>api</td><td>*yes*</td><td>Renamed IReaderProvider to IInputStreamAndReaderProvider and IWriterProvider to IOutputStreamAndWriterProvider</td></tr>
+<tr><td>6/15/12</td><td>add</td><td>api</td><td></td><td>Extended FileSystem(Recursive)Iterator with String based constructors/factory methods</td></tr>
+<tr><td>6/13/12</td><td>add</td><td>api</td><td></td><td>Extended EnumHelper with getFromName`*` methods handling IHasName enums</td></tr>
+<tr><td>6/13/12</td><td>add</td><td>api</td><td></td><td>Added new annotation type @LazilyInitialized</td></tr>
+<tr><td>6/13/12</td><td>add</td><td>api</td><td></td><td>Extended StreamUtils API to support copy routines with a limit</td></tr>
+<tr><td>6/13/12</td><td>add</td><td>api</td><td></td><td>Extended API of NonBlockingStringWriter implementing IHasSize and deprecated toString method</td></tr>
+<tr><td>6/13/12</td><td>add</td><td>api</td><td></td><td>Added new constructors for NonBlockingStringReader</td></tr>
+<tr><td>6/13/12</td><td>add</td><td>api</td><td></td><td>Added new MicroDOM event NODE`_`REMOVED that is triggered upon node removal</td></tr>
+<tr><td>6/13/12</td><td>add</td><td>api</td><td></td><td>Added new package com.phloc.commons.email handling a structured email address + regex validation</td></tr>
+<tr><td>6/11/12</td><td>add</td><td>api</td><td></td><td>Unified ArrayHelper API</td></tr>
+<tr border="1"><td>6/11/12</td><td colspan="4">_Release *3.6.0.RC1*_</td></tr>
+<tr><td>6/11/12</td><td>add</td><td>api</td><td></td><td>Added new factory class InputSourceFactory</td></tr>
+<tr><td>6/11/12</td><td>add</td><td>api</td><td></td><td>Extended API of XMLListHandler and XMLMapHandler</td></tr>
+<tr><td>6/10/12</td><td>change</td><td>api</td><td>*yes*</td><td>LoggingTransformErrorListener now requires a locale</td></tr>
+<tr><td>6/10/12</td><td>remove</td><td>api</td><td>*yes*</td><td>Removed IHasErrorText and replaced it with IHasDisplayText (especially in IResourceError)</td></tr>
+<tr><td>6/10/12</td><td>change</td><td>tech</td><td></td><td>Made EqualsImplementationRegistry and HashCodeImplementationRegistry more efficient</td></tr>
+<tr><td>6/10/12</td><td>add</td><td>api</td><td></td><td>Made StringHelper API more consistent using more get... methods. Old methods are deprecated.</td></tr>
+<tr><td>6/10/12</td><td>add</td><td>api</td><td></td><td>Added ArrayHelper.getFirst and getLast for all primitive types</td></tr>
+<tr><td>6/10/12</td><td>change</td><td>api</td><td>*yes*</td><td>Renamed codec.I(En|De)coder to IByteArray(En|De)coder and derived it from .encode.I(En|De)coder</td></tr>
+<tr><td>6/10/12</td><td>change</td><td>api</td><td>*yes*</td><td>Renamed .codec classes so that they all end of Codec to be more general-purpose</td></tr>
+<tr border="1"><td>6/6/12</td><td colspan="4">_Release *3.5.8*_</td></tr>
+<tr><td>6/6/12</td><td>add</td><td>api</td><td></td><td>Added new MicroContainer constructor and static factory methods for easy clone handling</td></tr>
+<tr><td>6/6/12</td><td>add</td><td>api</td><td></td><td>Added new com.phloc.commons.codec package, with the encoders and decoders from our internal PDF package</td></tr>
+<tr><td>6/4/12</td><td>add</td><td>api</td><td></td><td>Added new class NonBlockingBufferedReader</td></tr>
+<tr><td>6/4/12</td><td>add</td><td>api</td><td></td><td>Added new method IMicroElement.getAllChildElementsRecursive()</td></tr>
+<tr><td>5/30/12</td><td>add</td><td>api</td><td></td><td>Extended EURLProtocol with methods to support ISimpleURL</td></tr>
+<tr><td>5/29/12</td><td>add</td><td>api</td><td></td><td>Added ContainerHelper.getSize(Enumeration)</td></tr>
+<tr><td>5/26/12</td><td>update</td><td>tech</td><td></td><td>Made MicroTypeConverterRegistry more efficient</td></tr>
+<tr border="1"><td>5/24/12</td><td colspan="4">_Release *3.5.7*_</td></tr>
+<tr><td>5/24/12</td><td>fix</td><td>api</td><td></td><td>Fixed error in MicroElement.getAllAttributes so that the order is maintained</td></tr>
+<tr border="1"><td>5/24/12</td><td colspan="4">_Release *3.5.6*_</td></tr>
+<tr><td>5/24/12</td><td>add</td><td>api</td><td></td><td>Added new class NonBlockingStringReader and using it where applicable</td></tr>
+<tr><td>5/24/12</td><td>change</td><td>tech</td><td></td><td>Changed some return types from returning unmodifiable objects to return copies instead</td></tr>
+<tr><td>5/24/12</td><td>add</td><td>api</td><td></td><td>Added new annotation @PrivateAPI to indicate that public methods are not mean for public use</td></tr>
+<tr><td>5/24/12</td><td>add</td><td>api</td><td></td><td>Added new package com.phloc.commons.encode having generic encoder and decoder interfaces</td></tr>
+<tr><td>5/24/12</td><td>add</td><td>api</td><td></td><td>Added new interfaces IBidirectionalConverterSameType and IUnidirectionalConverterSameType</td></tr>
+<tr><td>5/24/12</td><td>add</td><td>api</td><td></td><td>Adding methods with Charset parameters where methods with String charset-name parameters are present</td></tr>
+<tr><td>5/24/12</td><td>add</td><td>api</td><td></td><td>Extended StreamUtils API with new createReader and createWriter methods</td></tr>
+<tr><td>5/24/12</td><td>add</td><td>api</td><td></td><td>Added new interfaces IHasMicroNodeRepresentation and IHasXMLRepresentation</td></tr>
+<tr><td>5/22/12</td><td>add</td><td>api</td><td></td><td>Made IReadableResource Serializable</td></tr>
+<tr border="1"><td>5/15/12</td><td colspan="4">_Release *3.5.5*_</td></tr>
+<tr><td>5/15/12</td><td>add</td><td>api</td><td></td><td>Extended FilenameHelper API with some methods</td></tr>
+<tr><td>5/15/12</td><td>add</td><td>api</td><td></td><td>Extended NonBlockingMessageDigestGenerator API with some static methods</td></tr>
+<tr><td>5/8/12</td><td>add</td><td>api</td><td></td><td>Added the possibility to retrieve all change log items (entries and releases) in the correct oder</td></tr>
+<tr border="1"><td>5/8/12</td><td colspan="4">_Release *3.5.4*_</td></tr>
+<tr><td>5/8/12</td><td>change</td><td>api</td><td>*yes*</td><td>Moved ArrayEnumeration to sub-package 'iterate'</td></tr>
+<tr><td>5/8/12</td><td>add</td><td>api</td><td></td><td>Added static factory method for SingleElement(Iterator|ListIterator|Enumeration)</td></tr>
+<tr><td>5/8/12</td><td>add</td><td>api</td><td></td><td>Added new class SingleElementEnumeration</td></tr>
+<tr><td>5/8/12</td><td>add</td><td>api</td><td></td><td>Added new class CombinedIterator plus access method in ContainerHelper</td></tr>
+<tr><td>5/7/12</td><td>add</td><td>api</td><td></td><td>Added new class AbstractJAXBMarshaller as the basis for easily creating JAXB document marshallers</td></tr>
+<tr><td>5/7/12</td><td>add</td><td>api</td><td></td><td>Made `*`SAXErrorHandler, `*`ValidationEventHandler and `*`TransformErrorListener non-final and subclassable</td></tr>
+<tr><td>5/7/12</td><td>add</td><td>api</td><td></td><td>Added a method clearResourceErrors to CollectingSAXErrorHandler, CollectingValidationEventHandler and CollectingTransformErrorListener</td></tr>
+<tr><td>5/7/12</td><td>change</td><td>api</td><td></td><td>Made CollectingSAXErrorHandler thread-safe</td></tr>
+<tr><td>5/7/12</td><td>add</td><td>api</td><td></td><td>ResourceErrorGroup now implements IClearable</td></tr>
+<tr><td>5/4/12</td><td>add</td><td>api</td><td></td><td>Added abstract base class AbstractTransformURIResolver</td></tr>
+<tr><td>5/4/12</td><td>add</td><td>api</td><td></td><td>MicroReader and XMLReader now directly support the reading from File</td></tr>
+<tr><td>5/4/12</td><td>fix</td><td>api</td><td></td><td>Fixed signature of ArrayHelper.newArray(Collection,Class)</td></tr>
+<tr><td>5/4/12</td><td>add</td><td>api</td><td></td><td>Added new class ConstantValidationEventHandlerFactory and CollectingLoggingValidationEventHandlerFactory</td></tr>
+<tr border="1"><td>5/4/12</td><td colspan="4">_Release *3.5.3*_</td></tr>
+<tr><td>5/4/12</td><td>add</td><td>api</td><td></td><td>Added default implementations of IValidationEventHandlerFactory for (Logging|Collecting)ValidationEventHandler</td></tr>
+<tr><td>5/4/12</td><td>add</td><td>api</td><td></td><td>Moved JAXB (Logging|Collecting)ValidationEventHandler to a separate package and made non-final</td></tr>
+<tr><td>5/4/12</td><td>add</td><td>api</td><td></td><td>Added a factory for JAXB ValidationEventHandlers called IValidationEventHandlerFactory</td></tr>
+<tr border="1"><td>5/4/12</td><td colspan="4">_Release *3.5.2*_</td></tr>
+<tr><td>5/4/12</td><td>add</td><td>api</td><td></td><td>Extended EnumerationFromIterator to also work with Iterable objects</td></tr>
+<tr><td>5/4/12</td><td>add</td><td>api</td><td></td><td>Added new helper classes DebugInputStream and DebugOutputStream</td></tr>
+<tr><td>5/4/12</td><td>add</td><td>api</td><td></td><td>Extended CountingInputStream to retrieve the current position within the input stream</td></tr>
+<tr><td>5/4/12</td><td>add</td><td>api</td><td></td><td>Added new StreamUtils methods skipFully and readFully</td></tr>
+<tr><td>5/4/12</td><td>change</td><td>api</td><td></td><td>Deprecated NonBlockingStringWriter.getBuffer. Instead directGetStringBuilder should be used!</td></tr>
+<tr><td>5/4/12</td><td>add</td><td>api</td><td></td><td>Added new method NonBlockingStringWriter.toCharArray()</td></tr>
+<tr><td>5/4/12</td><td>change</td><td>api</td><td></td><td>Made method StreamUtils.getCopy(Reader) public</td></tr>
+<tr><td>5/4/12</td><td>add</td><td>api</td><td></td><td>Added new MathHelper methods abs(int|long|float|double) handling problems with Integer.MIN`_`VALUE and Long.MIN`_`VALUE</td></tr>
+<tr><td>5/4/12</td><td>add</td><td>api</td><td></td><td>Added new StringHelper methods getNotNull(CharSequence) and replaceAll(String,char,char)</td></tr>
+<tr><td>5/3/12</td><td>add</td><td>api</td><td></td><td>Added new marker interface IMockException</td></tr>
+<tr><td>4/30/12</td><td>add</td><td>api</td><td></td><td>Added new marker interface IMicroNodeWithChildren</td></tr>
+<tr border="1"><td>4/27/12</td><td colspan="4">_Release *3.5.1*_</td></tr>
+<tr><td>4/27/12</td><td>update</td><td>tech</td><td></td><td>Updated to freedesktop.org shared MIME type list v1.0</td></tr>
+<tr><td>4/27/12</td><td>add</td><td>api</td><td></td><td>Added new classes MutableChar and MutableFloat</td></tr>
+<tr><td>4/26/12</td><td>add</td><td>api</td><td></td><td>Added new parseByte`*` methods in StringHelper</td></tr>
+<tr><td>4/26/12</td><td>add</td><td>api</td><td></td><td>Added new classes MutableByte and MutableShort</td></tr>
+<tr><td>4/26/12</td><td>fix</td><td>tech</td><td></td><td>Using BigDecimal.valueOf(double) instead of new BigDecimal(double) where applicable</td></tr>
+<tr><td>4/24/12</td><td>add</td><td>api</td><td></td><td>Added new ContainerHelper methods new(Unmodifiable)SortedMap returning a TreeMap</td></tr>
+<tr border="1"><td>4/23/12</td><td colspan="4">_Release *3.5.0*_</td></tr>
+<tr><td>4/23/12</td><td>change</td><td>api</td><td>*yes*</td><td>Moved EqualsUtils to new package com.phloc.commons.equals</td></tr>
+<tr><td>4/23/12</td><td>change</td><td>api</td><td></td><td>The class XMLWriterSettings now implements ICloneable</td></tr>
+<tr><td>4/23/12</td><td>change</td><td>api</td><td>*yes*</td><td>Fixed copying of 2 properties in XMLWriterSettings copy constructor</td></tr>
+<tr><td>4/23/12</td><td>change</td><td>api</td><td>*yes*</td><td>Merged AbstractXMLWriterSettings and XMLWriterSettings because a deprecated implementation was removed</td></tr>
+<tr><td>4/23/12</td><td>remove</td><td>api</td><td>*yes*</td><td>Removed all unused @Deprecated methods</td></tr>
+<tr><td>4/23/12</td><td>add</td><td>api</td><td>*yes*</td><td>Added EqualsImplementationRegistry and HashCodeImplementationRegistry to support custom equals and hashCode implementations</td></tr>
+<tr><td>4/23/12</td><td>change</td><td>api</td><td>*yes*</td><td>Changed the API of ClassHelper.getClassHierarchy to return Collection instead of List and extended it to support a version without duplicates.</td></tr>
+<tr><td>4/20/12</td><td>add</td><td>api</td><td></td><td>Added special hashCode and equals support for org.w3c.dom.Node objects</td></tr>
+<tr><td>4/18/12</td><td>update</td><td>tech</td><td></td><td>Fixed some specific issues with ReadWriteLock usage</td></tr>
+<tr><td>4/16/12</td><td>add</td><td>api</td><td></td><td>Added factory methods in class MicroTypeConverterTreeXML</td></tr>
+<tr><td>4/13/12</td><td>add</td><td>api</td><td></td><td>New method StackTraceHelper.containsUnitTestElement with a Throwable</td></tr>
+<tr><td>4/11/12</td><td>change</td><td>api</td><td></td><td>Made StreamUtils.getCopy public</td></tr>
+<tr border="1"><td>4/4/12</td><td colspan="4">_Release *3.4.9*_</td></tr>
+<tr><td>4/4/12</td><td>add</td><td>api</td><td></td><td>Extended FileSystemIterator and FileSystemRecursiveIterator factory methods to also work with FilenameFilter</td></tr>
+<tr><td>4/4/12</td><td>add</td><td>api</td><td></td><td>Added a constructor to FileFilterToIFilterAdapter that takes a FilenameFilter</td></tr>
+<tr><td>4/4/12</td><td>add</td><td>api</td><td></td><td>Added new class FileFilterFromFilenameFilter that works for any type of file</td></tr>
+<tr><td>4/4/12</td><td>fix</td><td>tech</td><td></td><td>Fixed XML serialization issue, if an empty namespace prefix was used in a NamespaceContext</td></tr>
+<tr><td>4/4/12</td><td>add</td><td>api</td><td></td><td>Added new CXML constant for XSD targetNamespace attribute</td></tr>
+<tr><td>3/21/12</td><td>change</td><td>api</td><td>*yes*</td><td>IReadonlyAttributeContainer now implements IHasSize</td></tr>
+<tr border="1"><td>3/21/12</td><td colspan="4">_Release *3.4.8*_</td></tr>
+<tr><td>3/21/12</td><td>fix</td><td>tech</td><td></td><td>Clarified the specification of IAttributeContainer.setAttribute with null values - this is equal to a removeAttribute</td></tr>
+<tr><td>3/19/12</td><td>add</td><td>tech</td><td></td><td>Added cache statistics in ImageDataManager</td></tr>
+<tr border="1"><td>3/14/12</td><td colspan="4">_Release *3.4.7*_</td></tr>
+<tr><td>3/14/12</td><td>add</td><td>api</td><td></td><td>Added new method getAllAttributeValues to IReadonlyAttributeContainer interface</td></tr>
+<tr><td>3/14/12</td><td>add</td><td>api</td><td></td><td>Added new class MapBasedAttributeContainerThreadSafe as a thread-safe wrapper around MapBasedAttributeContainer</td></tr>
+<tr><td>3/4/12</td><td>add</td><td>api</td><td></td><td>Added new class XMLResourceBundle to easily read XML resource bundles</td></tr>
+<tr border="1"><td>3/4/12</td><td colspan="4">_Release *3.4.6*_</td></tr>
+<tr><td>3/4/12</td><td>fix</td><td>tech</td><td></td><td>Fixed statistics of AbstractNotifyingCache because of double query</td></tr>
+<tr><td>3/4/12</td><td>update</td><td>tech</td><td></td><td>Tried to improve the speed of the FileSystemResource on Unix systems by using our own non-blocking canonicalization routine</td></tr>
+<tr><td>3/4/12</td><td>fix</td><td>tech</td><td></td><td>Improved cleansing algorithm of FilenameHelper.getCleanPath(String)</td></tr>
+<tr><td>3/4/12</td><td>update</td><td>tech</td><td></td><td>Added cache in CollatorUtils.getCollatorSpaceBeforeDot to work around synchronization issue in Collator.getInstance()</td></tr>
+<tr><td>3/1/12</td><td>add</td><td>api</td><td></td><td>Added new interface IHasVersionRange</td></tr>
+<tr><td>3/1/12</td><td>add</td><td>api</td><td></td><td>Added new statistics type 'KeyedSize' incl. visit and export</td></tr>
+<tr><td>3/1/12</td><td>add</td><td>api</td><td></td><td>Added new statistics type 'KeyedTimer' incl. visit and export</td></tr>
+<tr><td>3/1/12</td><td>change</td><td>api</td><td>*yes*</td><td>Changed the API of they statistics keyed counter slightly</td></tr>
+<tr><td>2/29/12</td><td>fix</td><td>tech</td><td></td><td>Added XML character replacement for character 0x2028 (Unicode newline)</td></tr>
+<tr border="1"><td>2/27/12</td><td colspan="4">_Release *3.4.5*_</td></tr>
+<tr><td>2/27/12</td><td>add</td><td>api</td><td></td><td>Added new IStatisticsHandlerKeyedCounter method increment(key,byHowMany)</td></tr>
+<tr><td>2/27/12</td><td>update</td><td>tech</td><td></td><td>Improved logging for file operations</td></tr>
+<tr border="1"><td>2/27/12</td><td colspan="4">_Release *3.4.4*_</td></tr>
+<tr><td>2/27/12</td><td>add</td><td>tech</td><td></td><td>Add APIs in EqualsUtils for: AtomicBoolean, AtomicInteger and AtomicLong</td></tr>
+<tr><td>2/27/12</td><td>update</td><td>api</td><td></td><td>Made MemoryIntIDFactory thread-safe</td></tr>
+<tr><td>2/27/12</td><td>fix</td><td>tech</td><td></td><td>Fixed concurrency problem in FileIntIDProvider</td></tr>
+<tr border="1"><td>2/15/12</td><td colspan="4">_Release *3.4.3*_</td></tr>
+<tr><td>2/15/12</td><td>update</td><td>api</td><td></td><td>Added a new TypeConverterException constructor taking a root cause.</td></tr>
+<tr><td>2/14/12</td><td>fix</td><td>tech</td><td></td><td>JAXBContextCache can now handle classes correctly, if the package does not contain an @XmlSchema annotation</td></tr>
+<tr><td>2/14/12</td><td>change</td><td>api</td><td></td><td>Fixed FindBugs issues</td></tr>
+<tr><td>2/14/12</td><td>change</td><td>api</td><td>*yes*</td><td>ComparatorThreadID is now derived from AbstractIntegerComparator</td></tr>
+<tr><td>2/14/12</td><td>change</td><td>api</td><td>*yes*</td><td>AbstractCollationComparator, AbstractNumericComparator and ComparatorComparableNullAware are now derived from AbstractComparatorNullAware</td></tr>
+<tr><td>2/14/12</td><td>add</td><td>api</td><td></td><td>Added new Comparator base classes AbstractComparatorNullAware and AbstractIntegerComparator</td></tr>
+<tr><td>2/13/12</td><td>add</td><td>api</td><td></td><td>Added new customization possibility to the XML writer settings: emit space in self-closed elements or not.</td></tr>
+<tr><td>2/13/12</td><td>add</td><td>api</td><td></td><td>Added new customization possibility to the XML writer settings: use single quotes to surround attribute values.</td></tr>
+<tr><td>2/4/12</td><td>add</td><td>api</td><td></td><td>ESortOrder got a new method getAlternate to get the opposite value</td></tr>
+<tr><td>2/2/12</td><td>add</td><td>tech</td><td></td><td>Added additional error messages when reading change logs via the ChangeLogSerializer</td></tr>
+<tr border="1"><td>2/1/12</td><td colspan="4">_Release *3.4.2*_</td></tr>
+<tr><td>2/1/12</td><td>add</td><td>api</td><td></td><td>Added support for simple URLs</td></tr>
+<tr border="1"><td>2/1/12</td><td colspan="4">_Release *3.4.1*_</td></tr>
+<tr><td>2/1/12</td><td>change</td><td>api</td><td></td><td>By default JMX is disabled for statistics and cache</td></tr>
+<tr><td>1/31/12</td><td>fix</td><td>tech</td><td></td><td>Fixed correct logging in EXMLIncorrectCharacterHandling enums</td></tr>
+<tr><td>1/31/12</td><td>update</td><td>api</td><td></td><td>Deprecated some methods that rely on the default encoding</td></tr>
+<tr border="1"><td>1/31/12</td><td colspan="4">_Release *3.4.0*_</td></tr>
+<tr><td>1/31/12</td><td>add</td><td>tech</td><td></td><td>Added JMX support into statistic handler and AbstractCache implementations</td></tr>
+<tr><td>1/31/12</td><td>add</td><td>api</td><td></td><td>Started adding support for JMX object handling</td></tr>
+<tr><td>1/31/12</td><td>add</td><td>api</td><td></td><td>TypeConverter now has conversion methods to convert from primitive types</td></tr>
+<tr><td>1/30/12</td><td>fix</td><td>api</td><td></td><td>ToStringGenerator now automatically avoids endless loops, if the source object is passed again as a member object</td></tr>
+<tr><td>1/30/12</td><td>change</td><td>api</td><td>*yes*</td><td>Moved MD`_`CH from ECountryName to ECountrySubName</td></tr>
+<tr><td>1/27/12</td><td>add</td><td>api</td><td></td><td>Extended ETriState with new overload of getAsBooleanObj</td></tr>
+<tr><td>1/27/12</td><td>add</td><td>api</td><td></td><td>Extended IReadonlyGraph with new method getSingleEndNode</td></tr>
+<tr><td>1/27/12</td><td>add</td><td>api</td><td></td><td>Added new class GraphIteratorBackward</td></tr>
+<tr border="1"><td>1/26/12</td><td colspan="4">_Release *3.3.11*_</td></tr>
+<tr><td>1/25/12</td><td>add</td><td>api</td><td></td><td>Extended SimpleFileIO and StreamUtils APIs for reading lines</td></tr>
+<tr><td>1/25/12</td><td>add</td><td>api</td><td></td><td>Added new constants in CGlobal: ILLEGAL`_`USHORT, ILLEGAL`_`FLOAT, BIGINT`_`10 and BIGDEC`_`10</td></tr>
+<tr><td>1/25/12</td><td>add</td><td>api</td><td></td><td>IMicroNode has a new method getType delivering the type of a node</td></tr>
+<tr><td>1/23/12</td><td>add</td><td>api</td><td></td><td>Added new classes SuccessWithValue and ChangeWithValue</td></tr>
+<tr><td>1/23/12</td><td>add</td><td>api</td><td></td><td>Added new interface IWrapper and made the Wrapper implementation cloneable</td></tr>
+<tr border="1"><td>1/22/12</td><td colspan="4">_Release *3.3.10*_</td></tr>
+<tr><td>1/22/12</td><td>change</td><td>tech</td><td></td><td>Added an explicit ResourceBundle Cache in EnumTextResolverWithPropertiesOverrideAndFallback</td></tr>
+<tr><td>1/22/12</td><td>change</td><td>api</td><td></td><td>Extracted static methods from ResourceBundleKey to ResourceBundleUtils</td></tr>
+<tr><td>1/21/12</td><td>add</td><td>performance</td><td></td><td>Performance improvement in CombinationGenerator by using long fallback</td></tr>
+<tr><td>1/21/12</td><td>add</td><td>api</td><td></td><td>Added new change log category 'performance'</td></tr>
+<tr><td>1/21/12</td><td>add</td><td>tech</td><td></td><td>Added new default MicroType converters for AtomicBoolean, AtomicInteger and AtomicLong</td></tr>
+<tr border="1"><td>1/21/12</td><td colspan="4">_Release *3.3.9*_</td></tr>
+<tr><td>1/20/12</td><td>change</td><td>api</td><td></td><td>All thread-safe implementations wont return an unmodifiable view of the underlying data structures but a copy instead</td></tr>
+<tr><td>1/20/12</td><td>add</td><td>api</td><td></td><td>Added new ContainerHelper methods makeUnmodifiableNotNull that will never return null</td></tr>
+<tr><td>1/20/12</td><td>change</td><td>api</td><td>*yes*</td><td>All ContainerHelper methods working on SortedSet objects now only work with Comparable objects</td></tr>
+<tr><td>1/20/12</td><td>change</td><td>api</td><td></td><td>All ContainerHelper methods working on SortedSet objects return SortedSet instead of Set</td></tr>
+<tr><td>1/20/12</td><td>add</td><td>api</td><td></td><td>New class ComparatorComparableNullAware that does null-safe comparison</td></tr>
+<tr><td>1/19/12</td><td>add</td><td>api</td><td></td><td>Added new static method ManagedExecutorService.shutdownAndWaitUntilAllTasksAreFinished</td></tr>
+<tr><td>1/17/12</td><td>add</td><td>api</td><td></td><td>Added new overload for AbstractSchemaCache.getSchema()</td></tr>
+<tr><td>1/16/12</td><td>add</td><td>data</td><td></td><td>Added license information for Base64 code into thirdparty configuration</td></tr>
+<tr><td>1/16/12</td><td>add</td><td>api</td><td></td><td>Added new predefined license ELicense.PUBLIC`_`DOMAIN</td></tr>
+<tr><td>1/16/12</td><td>add</td><td>tech</td><td></td><td>Added a default conversion between String and byte[] for MicroTypeConverter</td></tr>
+<tr><td>1/16/12</td><td>change</td><td>api</td><td>*yes*</td><td>Changed the way how the default conversion between String and byte[]. Previously it was the ISO-8859-1 String representation, now it is Base64-encoded</td></tr>
+<tr><td>1/16/12</td><td>add</td><td>api</td><td></td><td>Added new methods in EqualsUtils: equalsTypeSpecific, equalsTypeSpecificNoCollections, nullSafeEqualsTypeSpecific and nullSafeEqualsTypeSpecificNoCollections</td></tr>
+<tr border="1"><td>1/4/12</td><td colspan="4">_Release *3.3.8*_</td></tr>
+<tr><td>1/4/12</td><td>add</td><td>api</td><td></td><td>Added new ChangeLog category "data" for data files etc.</td></tr>
+<tr><td>1/3/12</td><td>change</td><td>tech</td><td></td><td>GenericReflection.newInstance now catches Throwable instead of Exception</td></tr>
+<tr><td>1/3/12</td><td>add</td><td>api</td><td>*yes*</td><td>Started adding some support for running with a SecurityManager</td></tr>
+<tr><td>12/22/11</td><td>add</td><td>api</td><td></td><td>Extended JAXBMarshallerUtils with the method isSunJAXB2Marshaller</td></tr>
+<tr><td>12/22/11</td><td>change</td><td>api</td><td></td><td>Performed fixes of FindBugs 2.0.0 analysis</td></tr>
+<tr border="1"><td>12/22/11</td><td colspan="4">_Release *3.3.7*_</td></tr>
+<tr><td>12/22/11</td><td>add</td><td>api</td><td></td><td>New MathHelper methods: get(Min|Max)Float with arbitrary number of arguments</td></tr>
+<tr><td>12/22/11</td><td>add</td><td>api</td><td></td><td>Added copy constructor to XMLWriterSettings</td></tr>
+<tr><td>12/21/11</td><td>change</td><td>api</td><td></td><td>Internally using IXMLWriterSettings instead of duplicating the fields all the time</td></tr>
+<tr><td>12/21/11</td><td>change</td><td>api</td><td></td><td>Deprecated most methods of XMLWriter so that only the versions with the IXMLWriterSettings are used</td></tr>
+<tr><td>12/21/11</td><td>add</td><td>api</td><td></td><td>Added possibility to customize the way how XML writer handles invalid XML characters</td></tr>
+<tr><td>12/20/11</td><td>fix</td><td>api</td><td></td><td>XML writer does not write &#0; for the 0 byte, as this cannot be read by XML parsers</td></tr>
+<tr><td>12/19/11</td><td>add</td><td>api</td><td></td><td>New MathHelper methods: getMax(Int|Long|Double) and getMin(Int|Long|Double) with arbitrary number of arguments</td></tr>
+<tr><td>12/19/11</td><td>change</td><td>api</td><td></td><td>Deprecated class MicroFactory. Use the new Micro(Comment|Element|...) methods directly.</td></tr>
+<tr><td>12/6/11</td><td>add</td><td>api</td><td></td><td>Extended IFileOperationManager and FileOperations with delete(File|Dir|DirRecursive)IfExisting methods</td></tr>
+<tr border="1"><td>12/5/11</td><td colspan="4">_Release *3.3.6*_</td></tr>
+<tr><td>12/5/11</td><td>add</td><td>api</td><td></td><td>Added new class JAXBMarshallerUtils to set and retrieve JAXB marshaller properties in a type-safe manner</td></tr>
+<tr><td>12/5/11</td><td>fix</td><td>tech</td><td></td><td>Fixed serializing of XML namespace declarations in certain cases, which may resulted in invalid XML elements.</td></tr>
+<tr><td>12/5/11</td><td>add</td><td>api</td><td></td><td>Added the possibility for Node and IMicroNode serialization to specify some namespaceURL-to-prefix mapping.</td></tr>
+<tr><td>12/5/11</td><td>add</td><td>api</td><td></td><td>Added new classes AdapterRunnableToCallableWithParameter and AdapterThrowingRunnableToCallableWithParameter</td></tr>
+<tr><td>12/2/11</td><td>fix</td><td>tech</td><td></td><td>Base64Helper now catches all Exceptions in safe decoding (instead of only IOException)</td></tr>
+<tr><td>11/29/11</td><td>add</td><td>api</td><td></td><td>Added new class AdapterThrowingRunnableToCallable for converting throwing runnables to callables</td></tr>
+<tr><td>11/28/11</td><td>add</td><td>api</td><td></td><td>New method for Version and VersionRange: getAsString(boolean) for printing version numbers including trailing zeroes.</td></tr>
+<tr><td>11/23/11</td><td>add</td><td>api</td><td></td><td>New ContainerHelper methods new...SortedSet creating a TreeSet</td></tr>
+<tr><td>11/22/11</td><td>add</td><td>tech</td><td></td><td>SimpleLSResourceResolver was further improved, so that base URLs are handled correctly</td></tr>
+<tr border="1"><td>11/21/11</td><td colspan="4">_Release *3.3.5*_</td></tr>
+<tr><td>11/21/11</td><td>add</td><td>api</td><td></td><td>Added new XML transformation utility classes ResourceStreamResult and StringStreamResult</td></tr>
+<tr><td>11/18/11</td><td>fix</td><td>tech</td><td></td><td>Improved check in FilenameHelper.isValidFilename method</td></tr>
+<tr><td>11/18/11</td><td>add</td><td>api</td><td></td><td>New FilenameHelper API containsPathSeparatorChar</td></tr>
+<tr border="1"><td>11/15/11</td><td colspan="4">_Release *3.3.4*_</td></tr>
+<tr><td>11/14/11</td><td>add</td><td>api</td><td></td><td>New FileFilter implementation FileFilterDirectoryPublic</td></tr>
+<tr><td>11/14/11</td><td>change</td><td>api</td><td></td><td>Reworked FileFilter implementations to use a common base class and also implement IFilter`<`File`>`</td></tr>
+<tr><td>11/14/11</td><td>add</td><td>api</td><td></td><td>FileSystemRecursiveIterator has now a constructor that takes a filter determining the recursion</td></tr>
+<tr><td>11/14/11</td><td>change</td><td>api</td><td></td><td>Simplified internal logic of FileOperations</td></tr>
+<tr><td>11/14/11</td><td>add</td><td>api</td><td></td><td>New class LoggingFileOperationCallback</td></tr>
+<tr><td>11/14/11</td><td>add</td><td>api</td><td></td><td>New StopWatch method stopAndGetSeconds ()</td></tr>
+<tr><td>11/14/11</td><td>add</td><td>tech</td><td></td><td>SimpleLSResourceResolver has now special handling if the system ID to be resolved is empty</td></tr>
+<tr><td>11/14/11</td><td>fix</td><td>tech</td><td></td><td>Fixed problems with SimpleLSResourceResolver default resource resolving when the passed base URI is not a URI</td></tr>
+<tr border="1"><td>11/11/11</td><td colspan="4">_Release *3.3.3*_</td></tr>
+<tr><td>11/11/11</td><td>change</td><td>api</td><td></td><td>Moved all `*`equals methods from CompareUtils to EqualsUtils and changed the usage in this project</td></tr>
+<tr><td>11/11/11</td><td>fix</td><td>tech</td><td></td><td>Improved UTF-8 byte counting and tests</td></tr>
+<tr><td>11/11/11</td><td>change</td><td>api</td><td></td><td>Removed some duplicate methods from CompareUtils. They are now all in EqualUtils.</td></tr>
+<tr><td>11/10/11</td><td>fix</td><td>api</td><td></td><td>Fixed binary compatibility of HashCodeGenerator because 3.3.2 was incompatible with 3.3.1 because of removed overload for Enum`<`?`>`</td></tr>
+<tr border="1"><td>11/8/11</td><td colspan="4">_Release *3.3.2*_</td></tr>
+<tr><td>11/8/11</td><td>change</td><td>api</td><td></td><td>ResourceBundleKey and ChangeLogSerializer now have API overloads to use a custom ClassLoader</td></tr>
+<tr><td>11/8/11</td><td>change</td><td>api</td><td></td><td>ClassPathResource is now using the URL based resolution (incl. caching) for InputStream retrieval</td></tr>
+<tr><td>11/8/11</td><td>add</td><td>api</td><td></td><td>Extended the ClassPathResource to support custom class loaders where required</td></tr>
+<tr><td>11/8/11</td><td>add</td><td>api</td><td></td><td>Created class EqualsUtils for easier equals implementation</td></tr>
+<tr><td>11/8/11</td><td>add</td><td>api</td><td></td><td>Extended CompareUtils APIs for some more tricky types</td></tr>
+<tr><td>11/8/11</td><td>add</td><td>api</td><td></td><td>Added new class HashCodeCalculator to use the standardized hash code creation outside of the HashCodeGenerator</td></tr>
+<tr><td>11/6/11</td><td>change</td><td>tech</td><td></td><td>Made ObjectType and TypedObject implement Serializable</td></tr>
+<tr><td>11/3/11</td><td>add</td><td>feature</td><td></td><td>Updated MIME list to shared mime info v0.91</td></tr>
+<tr><td>10/30/11</td><td>add</td><td>api</td><td></td><td>Added new method CGStringHelper.getClassFromPath</td></tr>
+<tr border="1"><td>10/25/11</td><td colspan="4">_Release *3.3.1*_</td></tr>
+<tr><td>10/24/11</td><td>add</td><td>api</td><td></td><td>Added default type conversions from primitive arrays to List, Set and OrderedSet</td></tr>
+<tr><td>10/24/11</td><td>add</td><td>api</td><td></td><td>Added new methods ContainerHelper.newXXXList/Set/OrderedSet for all primitive types</td></tr>
+<tr><td>10/23/11</td><td>add</td><td>api</td><td></td><td>Added new methods ArrayHelper.newXXXArray for all primitive types</td></tr>
+<tr><td>10/23/11</td><td>add</td><td>api</td><td></td><td>Added new methods ContainerHelper.containsNullElement and ArrayHelper.containsNullElement</td></tr>
+<tr><td>10/23/11</td><td>fix</td><td>tech</td><td></td><td>Fixed bug in ContainerHelper.getDifference. If the first container is empty, an empty Set is now returned.</td></tr>
+<tr><td>10/23/11</td><td>fix</td><td>tech</td><td></td><td>Fixed bug in ContainerHelper.getIntersection. If any of the 2 container is empty, an empty Set is now returned.</td></tr>
+<tr><td>10/20/11</td><td>add</td><td>api</td><td></td><td>CompareUtils got special nullSafeEquals versions for URL and BigDecimal</td></tr>
+<tr><td>10/16/11</td><td>add</td><td>api</td><td></td><td>Extended state enum API with valueOf for the respective interfaces</td></tr>
+<tr border="1"><td>10/6/11</td><td colspan="4">_Release *3.3.0*_</td></tr>
+<tr><td>10/6/11</td><td>add</td><td>api</td><td></td><td>Added a new overload of StreamUtils.readStreamLines</td></tr>
+<tr><td>10/6/11</td><td>add</td><td>api</td><td></td><td>Added class DefaultExecutorServiceFactory as a simple default implementation of the IExecutorServiceFactory</td></tr>
+<tr><td>10/6/11</td><td>change</td><td>api</td><td>*yes*</td><td>Renamed I(Non)ThrowingCallback to I(Non)ThrowingRunnableWithParameter for consistent naming. The method name was also changed from execute to run</td></tr>
+<tr><td>10/6/11</td><td>add</td><td>api</td><td></td><td>Added IThrowingCallable and IThrowingCallableWithParameter interface so that the hierarchy is complete</td></tr>
+<tr><td>10/6/11</td><td>add</td><td>api</td><td></td><td>INonThrowingRunnable is now derived from IThrowingRunnable</td></tr>
+<tr><td>10/5/11</td><td>add</td><td>api</td><td></td><td>Added method clear and interface IClearable to class InMemoryLogger</td></tr>
+<tr><td>10/5/11</td><td>change</td><td>api</td><td></td><td>Removed final modifier from class InMemoryLogger</td></tr>
+<tr><td>10/5/11</td><td>add</td><td>api</td><td></td><td>Added XMLHelper getNamespaceURI method, to retrieve the namespace URI of an arbitrary node</td></tr>
+<tr><td>10/5/11</td><td>change</td><td>tech</td><td>*yes*</td><td>Extracted MicroTypeConverter from MicroTypeConverterRegistry to have the same naming as the regular type converter</td></tr>
+<tr><td>10/5/11</td><td>change</td><td>api</td><td>*yes*</td><td>Changed the ITypeConverterRegistrarSPI SPI interface to take a callback interface for easier integration</td></tr>
+<tr><td>10/5/11</td><td>change</td><td>api</td><td>*yes*</td><td>Changed the IMicroTypeConverterRegistrarSPI SPI interface to take a callback interface for easier integration</td></tr>
+<tr><td>10/4/11</td><td>add</td><td>api</td><td></td><td>Extracted classes StringMicroTypeConverter and StringBasedMicroTypeConverter and made them publically available</td></tr>
+<tr><td>10/4/11</td><td>add</td><td>tech</td><td></td><td>Added the new changelog category 'test' for all test related issues</td></tr>
+<tr><td>10/4/11</td><td>add</td><td>api</td><td></td><td>Added the abstract base class AbstractChildrenProviderWithUniqueIDHasChildren</td></tr>
+<tr><td>9/30/11</td><td>add</td><td>api</td><td></td><td>NonBlockingMessageDigestGenerator got the static API getDigestFromInputStream to create a message digest from an InputStream</td></tr>
+<tr><td>9/30/11</td><td>add</td><td>api</td><td></td><td>Added some constants in CXML</td></tr>
+<tr><td>9/26/11</td><td>add</td><td>api</td><td></td><td>Added CompareUtils.safeEquals (BigDecimal, BigDecimal) to correctly handle comparison of BigDecimal values with different scales</td></tr>
+<tr border="1"><td>9/26/11</td><td colspan="4">_Release *3.2.1*_</td></tr>
+<tr><td>9/26/11</td><td>add</td><td>api</td><td></td><td>Added class HashingOutputStream</td></tr>
+<tr><td>9/26/11</td><td>change</td><td>tech</td><td></td><td>HashingInputStream uses now a NonBlockingMessageDigestGenerator</td></tr>
+<tr><td>9/23/11</td><td>add</td><td>api</td><td></td><td>Extended the RegExPool and RegExHelper classes to also support options for pattern compilation (e.g. MULTILINE, DOTALL etc.)</td></tr>
+<tr><td>9/23/11</td><td>add</td><td>api</td><td></td><td>Added new methods to FilenameHelper: getExtension(File) and hasExtension(File)</td></tr>
+<tr><td>9/23/11</td><td>add</td><td>api</td><td></td><td>Added several new constructors to the IMulti`*`Map`*` implementations</td></tr>
+<tr><td>9/22/11</td><td>change</td><td>tech</td><td></td><td>@ShouldBeDeprecated is now also allowed for fields</td></tr>
+<tr><td>9/21/11</td><td>add</td><td>api</td><td></td><td>Added new class MicroTypeConverterTreeXML for converting trees to XML using the default MicroTypeConverterRegistry types</td></tr>
+<tr><td>9/21/11</td><td>add</td><td>api</td><td></td><td>Improved API of TreeXMLConverter so that it can easily read from IMicroElement instead of IMicroDocument</td></tr>
+<tr border="1"><td>9/20/11</td><td colspan="4">_Release *3.2.0*_</td></tr>
+<tr><td>9/20/11</td><td>change</td><td>api</td><td>*yes*</td><td>Moved implementations of Graph objects into a separate package</td></tr>
+<tr><td>9/20/11</td><td>change</td><td>api</td><td>*yes*</td><td>Removed TreeWalkerWithID and TreeWalkerDynamicWithID as they can be replaced with TreeWalker and TreeWalkerDynamic</td></tr>
+<tr><td>9/20/11</td><td>change</td><td>api</td><td></td><td>Removed final from most Comparator implementations</td></tr>
+<tr><td>9/20/11</td><td>add</td><td>api</td><td></td><td>Added new classes ComparatorComparable and ComparatorHasIDComparable</td></tr>
+<tr><td>9/20/11</td><td>change</td><td>api</td><td>*yes*</td><td>Tree class hierarchy heavily changed so that all packages have the same naming for the same semantics</td></tr>
+<tr><td>9/16/11</td><td>change</td><td>api</td><td>*yes*</td><td>FolderTree`*` implementations now automatically use the keyCombinator method from the FolderTreeFactory</td></tr>
+<tr><td>9/16/11</td><td>change</td><td>api</td><td>*yes*</td><td>Made the keyCombinator of the FolderTree stuff optional. In that case the regular ID is returned instead of the concatenated ID</td></tr>
+<tr><td>9/16/11</td><td>change</td><td>api</td><td>*yes*</td><td>FileSystemFolderTree is now derived from DefaultFolderTree</td></tr>
+<tr><td>9/16/11</td><td>change</td><td>api</td><td>*yes*</td><td>Renamed "FolderTree`*`" implementations to "DefaultFolderTree`*`" and introduced abstract base implementations</td></tr>
+<tr><td>9/16/11</td><td>change</td><td>api</td><td></td><td>Started making FolderTree more usable by being more flexible</td></tr>
+<tr><td>9/15/11</td><td>add</td><td>api</td><td></td><td>Added IMicroElement.setAttribute(String,long) as a sanity method</td></tr>
+<tr><td>9/14/11</td><td>change</td><td>api</td><td>*yes*</td><td>GraphIterator now supports filtering relations to identify which relations to follow in iteration and which not</td></tr>
+<tr><td>9/14/11</td><td>change</td><td>api</td><td></td><td>Introduced IGraphNode and IGraphRelation interfaces and using them</td></tr>
+<tr><td>9/14/11</td><td>change</td><td>api</td><td></td><td>Class SimpleGraph is no longer final</td></tr>
+<tr border="1"><td>9/13/11</td><td colspan="4">_Release *3.1.1*_</td></tr>
+<tr><td>9/13/11</td><td>change</td><td>tech</td><td></td><td>Added blank before self-closing tags in XML writing</td></tr>
+<tr><td>9/13/11</td><td>change</td><td>tech</td><td></td><td>EnumTextResolverWithPropertiesOverrideAndFallback uses fallbacks for override and fallback determination</td></tr>
+<tr><td>9/13/11</td><td>change</td><td>api</td><td></td><td>The list returned from LocaleUtils.getCalculatedLocaleListForResolving is now unmodifiable</td></tr>
+<tr><td>9/12/11</td><td>add</td><td>api</td><td></td><td>Added SimpleFileIO.writeFile with a list of lines</td></tr>
+<tr border="1"><td>9/12/11</td><td colspan="4">_Release *3.1.0*_</td></tr>
+<tr><td>9/12/11</td><td>fix</td><td>tech</td><td></td><td>Fixed error in tree with unique ID, so that "getItemWithID" calls failed afterwards, because the item was removed from the factory and not added again</td></tr>
+<tr><td>9/8/11</td><td>add</td><td>api</td><td></td><td>Extended EnumHelper API to support case insensitive String lookup</td></tr>
+<tr><td>9/6/11</td><td>add</td><td>tech</td><td></td><td>Changelog entries now support the 'incompatible' attribute of type boolean</td></tr>
+<tr><td>9/6/11</td><td>change</td><td>api</td><td></td><td>Changed Generics type names to be more 'speaking' (e.g. ELEMENTTYPE instead of T)</td></tr>
+<tr><td>9/6/11</td><td>add</td><td>api</td><td></td><td>Extracted anonymous inner classes of ContainerHelper into named public classes</td></tr>
+<tr><td>9/6/11</td><td>add</td><td>api</td><td></td><td>Added class AggregatorConstant</td></tr>
+<tr><td>9/6/11</td><td>change</td><td>api</td><td>*yes*</td><td>Moved class to ChildrenProviderElementWithName to package com.phloc.commons.microdom.utils</td></tr>
+<tr><td>9/5/11</td><td>add</td><td>api</td><td></td><td>Added insertAtIndex method to IMicroNode</td></tr>
+<tr><td>9/2/11</td><td>add</td><td>api</td><td></td><td>Added IHasDisplayTextWithArgs interface</td></tr>
+<tr><td>9/2/11</td><td>add</td><td>api</td><td></td><td>Added MicroDOMInputStreamProvider constructor using the default charset</td></tr>
+<tr><td>9/1/11</td><td>add</td><td>api</td><td></td><td>Added new class ComparatorHasIDString, ComparatorHasSimpleIntID and ComparatorHasSimpleLongID</td></tr>
+<tr><td>9/1/11</td><td>add</td><td>api</td><td></td><td>Added new class CDefault having constant default values for primitive and primitive wrapper types</td></tr>
+<tr><td>9/1/11</td><td>add</td><td>tech</td><td></td><td>Added all default type conversions from and to AtomicBoolean</td></tr>
+<tr><td>9/1/11</td><td>change</td><td>api</td><td></td><td>Removed all @Deprecated methods</td></tr>
+<tr><td>9/1/11</td><td>change</td><td>api</td><td></td><td>Moved everything in package dyntypes and beans to separate project [http://code.google.com/p/phloc-commons phloc-types]</td></tr>
+<tr><td>9/1/11</td><td>add</td><td>api</td><td></td><td>Added a static create method for class FactoryConstantValue</td></tr>
+<tr border="1"><td>8/31/11</td><td colspan="4">_Release *3.0.12*_</td></tr>
+<tr><td>8/31/11</td><td>add</td><td>api</td><td></td><td>Added a static getAsString method to AbstractReadonlyAttributeContainer for converting a parameter Object to a String</td></tr>
+<tr><td>8/30/11</td><td>add</td><td>api</td><td></td><td>Added a non-blocking MessageDigestGenerator as well as an IMessageDigestGenerator interface</td></tr>
+<tr><td>8/30/11</td><td>add</td><td>api</td><td></td><td>Added a callback when reading change logs for advanced handling of the error messages.</td></tr>
+<tr><td>8/30/11</td><td>fix</td><td>tech</td><td></td><td>Added automatic splitting of CDATA sections that contain the illegal ]]`>` elements</td></tr>
+<tr border="1"><td>8/29/11</td><td colspan="4">_Release *3.0.11*_</td></tr>
+<tr><td>8/29/11</td><td>fix</td><td>tech</td><td></td><td>Changed default XML encoding of ' to &#39; because IE8 emits an error otherwise</td></tr>
+<tr><td>8/27/11</td><td>add</td><td>api</td><td></td><td>Added possibility to clear ImageDataManager cache</td></tr>
+<tr border="1"><td>8/26/11</td><td colspan="4">_Release *3.0.10*_</td></tr>
+<tr><td>8/26/11</td><td>change</td><td>api</td><td></td><td>Changed some methods to start with "getAs" instead of "as"</td></tr>
+<tr><td>8/25/11</td><td>fix</td><td>tech</td><td></td><td>Fixed bug in FilenameHelper makeValidFilename in case a forbidden character was contained more than once</td></tr>
+<tr><td>8/25/11</td><td>add</td><td>api</td><td></td><td>Added StringHelper API startsWithAny and endsWithAny</td></tr>
+<tr><td>8/25/11</td><td>add</td><td>api</td><td></td><td>Added FilenameHelper API getAbsoluteWithEnsuredParentDirectory and getRelativeToParentDirectory</td></tr>
+<tr><td>8/22/11</td><td>fix</td><td>api</td><td></td><td>Automatic masking of XML character ' to &apos;</td></tr>
+<tr border="1"><td>8/22/11</td><td colspan="4">_Release *3.0.9*_</td></tr>
+<tr><td>8/22/11</td><td>change</td><td>api</td><td></td><td>Each change log entry now knows its parent changelog.</td></tr>
+<tr><td>8/21/11</td><td>add</td><td>api</td><td></td><td>Added XML serialization option to ignore comments</td></tr>
+<tr border="1"><td>8/19/11</td><td colspan="4">_Release *3.0.8.1*_</td></tr>
+<tr><td>8/19/11</td><td>add</td><td>api</td><td></td><td>Added IHasErrorLevel interface</td></tr>
+<tr><td>8/19/11</td><td>change</td><td>api</td><td></td><td>Removed final from ResourceError class</td></tr>
+<tr><td>8/19/11</td><td>change</td><td>api</td><td></td><td>Added another ResourceLocation constructor</td></tr>
+<tr border="1"><td>8/19/11</td><td colspan="4">_Release *3.0.8*_</td></tr>
+<tr><td>8/18/11</td><td>change</td><td>api</td><td></td><td>Resource error API improved with error/noError API</td></tr>
+<tr><td>8/18/11</td><td>change</td><td>api</td><td></td><td>Trying to unify resource error group handling</td></tr>
+<tr border="1"><td>8/18/11</td><td colspan="4">_Release *3.0.7*_</td></tr>
+<tr><td>8/18/11</td><td>add</td><td>api</td><td></td><td>Added class XMLSchemaValidationHelper for easy XML schema validation</td></tr>
+<tr><td>8/17/11</td><td>add</td><td>tech</td><td></td><td>Added missing type converters for AtomicInteger, AtomicLong, StringBuffer and StringBuilder</td></tr>
+<tr border="1"><td>8/17/11</td><td colspan="4">_Release *3.0.6*_</td></tr>
+<tr><td>8/16/11</td><td>fix</td><td>tech</td><td></td><td>Fixed NPE in JAXB validation event handler</td></tr>
+<tr><td>8/16/11</td><td>fix</td><td>tech</td><td></td><td>Fixed error in emitting XML nodes with multiple different namespaces</td></tr>
+<tr border="1"><td>8/16/11</td><td colspan="4">_Release *3.0.5*_</td></tr>
+<tr><td>8/16/11</td><td>add</td><td>tech</td><td></td><td>Added default micro type converters for basic types and the enumeration types in the state package</td></tr>
+<tr><td>8/12/11</td><td>add</td><td>tech</td><td></td><td>Added default type converters for the enumeration types in the state package</td></tr>
+<tr><td>8/12/11</td><td>change</td><td>api</td><td></td><td>Changed the way how type converters are registered. Therefore the exact type converter can be used more often which results in better performance</td></tr>
+<tr><td>8/12/11</td><td>change</td><td>api</td><td></td><td>MicroTypeConverterRegistry now explicitly throws TypeConverterException in case no converter was found or conversion failed</td></tr>
+<tr><td>8/12/11</td><td>add</td><td>api</td><td></td><td>Added class HasDisplayTextWithArgs</td></tr>
+<tr><td>8/11/11</td><td>add</td><td>api</td><td></td><td>Added createDirIfNotExisting and createDirRecursiveIfNotExisting to file operations</td></tr>
+<tr border="1"><td>8/10/11</td><td colspan="4">_Release *3.0.4*_</td></tr>
+<tr><td>8/9/11</td><td>add</td><td>api</td><td></td><td>Added interface ISeverityComparable for EErrorLevel</td></tr>
+<tr><td>8/9/11</td><td>fix</td><td>tech</td><td></td><td>Ignoring comments in DTDs when reading MicroDOM XML</td></tr>
+<tr><td>8/8/11</td><td>add</td><td>api</td><td></td><td>Extended MathHelper API adding longToInt</td></tr>
+<tr border="1"><td>8/4/11</td><td colspan="4">_Release *3.0.3*_</td></tr>
+<tr><td>8/4/11</td><td>fix</td><td>tech</td><td></td><td>Fixed heuristic in MicroReader determining ignorable whitespaces</td></tr>
+<tr border="1"><td>8/4/11</td><td colspan="4">_Release *3.0.2*_</td></tr>
+<tr><td>8/4/11</td><td>add</td><td>api</td><td></td><td>Added a new changelog action 'update' for the update of external components</td></tr>
+<tr><td>8/4/11</td><td>add</td><td>api</td><td></td><td>Added a new changelog category 'security' for all security relevant issues</td></tr>
+<tr><td>8/3/11</td><td>add</td><td>api</td><td></td><td>Added StringHelper.multiContains to check if a set of chars is contained in another set of chars</td></tr>
+<tr><td>8/1/11</td><td>fix</td><td>api</td><td></td><td>The DynamicValue API now uses the TypeConverter more consistent and therefore also throws TypeConverterExceptions</td></tr>
+<tr border="1"><td>7/31/11</td><td colspan="4">_Release *3.0.1*_</td></tr>
+<tr><td>7/31/11</td><td>add</td><td>api</td><td></td><td>Made some more APIs Serializable</td></tr>
+<tr><td>7/31/11</td><td>add</td><td>api</td><td></td><td>Extended ContainerHelper API to support newUnmodifiableMap and newUnmodifiableOrderedMap</td></tr>
+<tr><td>7/31/11</td><td>add</td><td>api</td><td></td><td>Extended MicroReader API with a method to handle String+EntityResolver</td></tr>
+<tr><td>7/29/11</td><td>add</td><td>api</td><td></td><td>Extended ContainerHelper API to support getFirstElement, getFirstKey and getFirstValue on Maps</td></tr>
+<tr><td>7/29/11</td><td>add</td><td>api</td><td></td><td>Added support for reading, modifying and writing change logs programatically</td></tr>
+<tr><td>7/29/11</td><td>add</td><td>api</td><td></td><td>Extended FileSystemRecursiveIterator to allow to customize, in which directories to recurse and in which not</td></tr>
+<tr><td>7/29/11</td><td>add</td><td>api</td><td></td><td>Extended IMicroNode API to support removeChildAtIndex and removeAllChildren</td></tr>
+<tr border="1"><td>7/27/11</td><td colspan="4">_Release *3.0.0*_</td></tr>
+</tbody></table>

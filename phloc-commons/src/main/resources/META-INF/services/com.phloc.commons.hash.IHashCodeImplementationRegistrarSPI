@@ -1,0 +1,2 @@
+com.phloc.commons.hash.DefaultHashCodeImplementationRegistrarSPI
+com.phloc.commons.jaxb.JAXBHashCodeImplementationRegistrarSPI

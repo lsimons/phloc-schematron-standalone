@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.phloc</groupId>
+    <artifactId>parent-pom</artifactId>
+    <version>22.5</version>
+    <relativePath>../phloc-parent-pom/pom.xml</relativePath>
+  </parent>
+  <artifactId>phloc-schematron</artifactId>
+  <version>2.6.3-SNAPSHOT</version>
+  <packaging>bundle</packaging>
+  <name>phloc-schematron</name>
+  <url>http://repo.phloc.com/apidocs/phloc-schematron/${project.version}</url>
+
+  <licenses>
+    <license>
+      <name>Apache 2</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <scm>
+    <url>http://code.google.com/p/phloc-schematron/source/browse/</url>
+    <connection>scm:svn:http://phloc-schematron.googlecode.com/svn/trunk/phloc-schematron</connection>
+    <developerConnection>scm:svn:https://phloc-schematron.googlecode.com/svn/trunk/phloc-schematron</developerConnection>
+  </scm>
+
+  <organization>
+    <name>phloc systems</name>
+    <url>http://www.phloc.com</url>
+  </organization>
+
+  <developers>
+    <developer>
+      <id>philip</id>
+      <name>Philip Helger</name>
+      <email>ph(at)phloc.com</email>
+      <url>http://www.phloc.com</url>
+      <organization>phloc systems</organization>
+    </developer>
+  </developers>
+
+  <distributionManagement>
+    <repository>
+      <id>repo.phloc.public</id>
+      <url>sftp://www.phloc.com/var/www/html-repo/maven2</url>
+    </repository>
+  </distributionManagement>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.phloc</groupId>
+      <artifactId>phloc-commons</artifactId>
+      <version>4.0.10</version>
+    </dependency>
+    <!-- Saxon is required! - does not work with integrated JAXP nor with Xalan 2.7.1! -->
+    <dependency>
+      <groupId>net.sf.saxon</groupId>
+      <artifactId>Saxon-HE</artifactId>
+      <version>9.5.1-2</version>
+    </dependency>
+    
+    <!--
+    <dependency>
+      <groupId>com.phloc</groupId>
+      <artifactId>phloc-schematron-testfiles</artifactId>
+      <version>1.0.1</version>
+      <scope>test</scope>
+    </dependency>
+    -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.felix</groupId>
+        <artifactId>maven-bundle-plugin</artifactId>
+        <extensions>true</extensions>
+        <configuration>
+          <instructions>
+            <Export-Package>
+              com.phloc.schematron.*,
+              org.oclc.purl.dsdl.svrl.*
+            </Export-Package>
+          </instructions>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>com.mycila.maven-license-plugin</groupId>
+        <artifactId>maven-license-plugin</artifactId>
+        <configuration>
+          <excludes>
+            <exclude>src/main/resources/schemas/**</exclude>
+            <exclude>src/main/resources/schematron/**</exclude>
+          </excludes>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.jvnet.jaxb2.maven2</groupId>
+        <artifactId>maven-jaxb2-plugin</artifactId>
+        <version>0.8.3</version>
+        <executions>
+          <execution>
+            <id>svrl</id>
+            <goals>
+              <goal>generate</goal>
+            </goals>
+            <configuration>
+              <bindingDirectory>${basedir}/src/main/jaxb</bindingDirectory>
+              <bindingIncludes>
+                <bindingInclude>bindings.xjb</bindingInclude>
+              </bindingIncludes>
+              <schemaDirectory>${basedir}/src/main/resources/schemas</schemaDirectory>
+              <schemaIncludes>
+                <schemaInclude>svrl.xsd</schemaInclude>
+              </schemaIncludes>
+              <generateDirectory>${project.build.directory}/generated-sources/svrl</generateDirectory>
+              <staleFile>${project.build.directory}/stale/.stale-svrl</staleFile>
+            </configuration>
+          </execution>
+        </executions>
+        <configuration>
+          <extension>true</extension>
+          <specVersion>2.1</specVersion>
+          <args>
+            <arg>-no-header</arg>
+            <arg>-Xphloc-default-locale</arg>
+            <arg>en_US</arg>
+            <arg>-Xphloc-annotate</arg>
+            <arg>-Xphloc-fields-private</arg>
+            <arg>-Xphloc-code-quality</arg>
+            <arg>-Xphloc-implements</arg>
+            <arg>java.io.Serializable</arg>
+            <arg>-Xphloc-equalshashcode</arg>
+            <arg>-Xphloc-tostring</arg>
+            <arg>-Xphloc-list-extension</arg>
+          </args>
+        </configuration>
+        <dependencies>
+          <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-impl</artifactId>
+            <version>2.2.7</version>
+          </dependency>
+          <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-xjc</artifactId>
+            <version>2.2.7</version>
+          </dependency>
+          <dependency>
+            <groupId>com.phloc</groupId>
+            <artifactId>phloc-jaxb22-plugin</artifactId>
+            <version>2.2.7.4</version>
+          </dependency>
+          <!-- Required for correct entity resolving in paths with blanks! -->
+          <dependency>
+            <groupId>xerces</groupId>
+            <artifactId>xercesImpl</artifactId>
+            <version>2.10.0</version>
+          </dependency>
+        </dependencies>
+      </plugin>
+    </plugins>
+  </build>
+</project>

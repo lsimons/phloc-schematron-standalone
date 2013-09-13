@@ -1,0 +1,2 @@
+com.phloc.commons.microdom.convert.impl.BasicMicroTypeConverterRegistrar
+com.phloc.commons.microdom.convert.impl.MultiLingualTextMicroTypeConverterRegistrar

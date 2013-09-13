@@ -1,0 +1,10 @@
+com.phloc.jaxb22.plugin.PluginAnnotate
+com.phloc.jaxb22.plugin.PluginBeanValidation10
+com.phloc.jaxb22.plugin.PluginBeanValidation11
+com.phloc.jaxb22.plugin.PluginCodeQuality
+com.phloc.jaxb22.plugin.PluginDefaultLocale
+com.phloc.jaxb22.plugin.PluginEqualsHashCode
+com.phloc.jaxb22.plugin.PluginFieldsPrivate
+com.phloc.jaxb22.plugin.PluginImplements
+com.phloc.jaxb22.plugin.PluginListExtension
+com.phloc.jaxb22.plugin.PluginToString

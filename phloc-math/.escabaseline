@@ -1,0 +1,1301 @@
+# Enerjy Software baseline data (files=127, problems=1173).
+path: /phloc-math/src/main/java/com/phloc/math/genetic/GARunner.java
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0138:JAVA0138 6 parameters defined for method 'GARunner' (maximum: 5)
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/IContinuation.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'IContinuation'
+path: /phloc-math/src/main/java/com/phloc/math/genetic/ICrossover.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'ICrossover'
+problem: JAVA0110:JAVA0110 Incorrect javadoc: no @return tag
+path: /phloc-math/src/main/java/com/phloc/math/genetic/IDecidingAction.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'IDecidingAction'
+path: /phloc-math/src/main/java/com/phloc/math/genetic/IEventHandler.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'IEventHandler'
+path: /phloc-math/src/main/java/com/phloc/math/genetic/IMutation.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'IMutation'
+problem: JAVA0110:JAVA0110 Incorrect javadoc: no @return tag
+path: /phloc-math/src/main/java/com/phloc/math/genetic/IPopulationCreator.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'IPopulationCreator'
+path: /phloc-math/src/main/java/com/phloc/math/genetic/ISelector.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'ISelector'
+problem: JAVA0110:JAVA0110 Incorrect javadoc: no @return tag
+path: /phloc-math/src/main/java/com/phloc/math/genetic/continuation/AbstractContinuation.java
+problem: JAVA0011:JAVA0011 Abstract class 'AbstractContinuation' does not contain an abstract method
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'AbstractContinuation'
+problem: JAVA0016:JAVA0016 Abstract class 'AbstractContinuation' contains public constructor
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0173:JAVA0173 Unused method parameter 'aPopulation'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/continuation/ContinuationKnownOptimum.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'ContinuationKnownOptimum'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/continuation/ContinuationTimeBased.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'ContinuationTimeBased'
+path: /phloc-math/src/main/java/com/phloc/math/genetic/continuation/ContinuationTotalGeneration.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'ContinuationTotalGeneration'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/crossover/AbstractCrossover.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'AbstractCrossover'
+problem: JAVA0016:JAVA0016 Abstract class 'AbstractCrossover' contains public constructor
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0039:JAVA0039 Break statement with label 'outer'
+path: /phloc-math/src/main/java/com/phloc/math/genetic/crossover/CCW.java
+problem: JAVA0128:JAVA0128 Public constructor 'CCW' in non-public class
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/crossover/CCWWithIndex.java
+problem: JAVA0128:JAVA0128 Public constructor 'CCWWithIndex' in non-public class
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0065:JAVA0065 Unnecessary final modifier for method 'getIndexOfOldValue' in final class
+path: /phloc-math/src/main/java/com/phloc/math/genetic/crossover/CrossoverEdgeRecombination.java
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0177:JAVA0177 Variable declaration 'nNextValue' missing initializer
+path: /phloc-math/src/main/java/com/phloc/math/genetic/crossover/CrossoverNever.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'CrossoverNever'
+path: /phloc-math/src/main/java/com/phloc/math/genetic/crossover/CrossoverOnePointInt.java
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/crossover/CrossoverPartiallyMapped.java
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/eventhandler/EventHandlerDefault.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'EventHandlerDefault'
+problem: JAVA0173:JAVA0173 Unused method parameter 'aPopulation'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0173:JAVA0173 Unused method parameter 'aCurrentFittest'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/eventhandler/EventHandlerLogging.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'EventHandlerLogging'
+path: /phloc-math/src/main/java/com/phloc/math/genetic/model/Chromosome.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'Chromosome'
+problem: JAVA0136:JAVA0136 23 methods defined in class 'Chromosome' (maximum: 20)
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/model/ComparatorChromosomeFitness.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'ComparatorChromosomeFitness'
+problem: JAVA0234:JAVA0234 Class 'ComparatorChromosomeFitness' is Serializable but does not define serialVersionUID
+path: /phloc-math/src/main/java/com/phloc/math/genetic/model/GeneDouble.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'GeneDouble'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/model/GeneInt.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'GeneInt'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/model/IChromsomeValidator.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'IChromsomeValidator'
+path: /phloc-math/src/main/java/com/phloc/math/genetic/model/IGene.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'IGene'
+path: /phloc-math/src/main/java/com/phloc/math/genetic/model/IMutablePopulation.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'IMutablePopulation'
+path: /phloc-math/src/main/java/com/phloc/math/genetic/model/IPopulation.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'IPopulation'
+path: /phloc-math/src/main/java/com/phloc/math/genetic/model/Population.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'Population'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/mutation/AbstractMutation.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'AbstractMutation'
+problem: JAVA0016:JAVA0016 Abstract class 'AbstractMutation' contains public constructor
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/mutation/MutationRandomMoveMultiple.java
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/mutation/MutationRandomPartialReverse.java
+problem: JAVA0177:JAVA0177 Variable declaration 'nIndex2' missing initializer
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/populationcreator/AbstractPopulationCreator.java
+problem: JAVA0011:JAVA0011 Abstract class 'AbstractPopulationCreator' does not contain an abstract method
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'AbstractPopulationCreator'
+path: /phloc-math/src/main/java/com/phloc/math/genetic/selector/AbstractSelector.java
+problem: JAVA0011:JAVA0011 Abstract class 'AbstractSelector' does not contain an abstract method
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'AbstractSelector'
+problem: JAVA0016:JAVA0016 Abstract class 'AbstractSelector' contains public constructor
+problem: JAVA0057:JAVA0057 Unnecessary default constructor 'AbstractSelector'
+path: /phloc-math/src/main/java/com/phloc/math/genetic/selector/SelectorAllSortedAll.java
+problem: JAVA0057:JAVA0057 Unnecessary default constructor 'SelectorAllSortedAll'
+path: /phloc-math/src/main/java/com/phloc/math/genetic/selector/SelectorAllSortedBest.java
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/selector/SelectorAllSortedBestOnly.java
+problem: JAVA0057:JAVA0057 Unnecessary default constructor 'SelectorAllSortedBestOnly'
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/selector/SelectorAllUnsortedAll.java
+problem: JAVA0057:JAVA0057 Unnecessary default constructor 'SelectorAllUnsortedAll'
+path: /phloc-math/src/main/java/com/phloc/math/genetic/selector/SelectorAlternating.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'SelectorAlternating'
+problem: JAVA0058:JAVA0058 Constructor 'SelectorAlternating' calls super()
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0173:JAVA0173 Unused method parameter 'aNewCS'
+path: /phloc-math/src/main/java/com/phloc/math/genetic/selector/SelectorBestSortedRandom.java
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/selector/SelectorRandomSortedBestOnly.java
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/selector/SelectorRandomUnsortedRandom.java
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/selector/SelectorTournament.java
+problem: JAVA0057:JAVA0057 Unnecessary default constructor 'SelectorTournament'
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/tsp/TSPRunner.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'TSPRunner'
+problem: JAVA0018:JAVA0018 Method name '_asPerc' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0018:JAVA0018 Method name '_asPerc' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0076:JAVA0076 Use of magic number '100'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0076:JAVA0076 Use of magic number '100'
+problem: JAVA0110:JAVA0110 Incorrect javadoc: no @return tag
+problem: JAVA0138:JAVA0138 9 parameters defined for method 'run' (maximum: 5)
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'ff'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'aEventHandler'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'aContinuation'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'aPopulationCreator'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'aSelector'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'aCrossover'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'aMutation'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/tsp/eventhandler/TSPEventHandlerCSV.java
+problem: JAVA0005:JAVA0005 Imports not in specified order
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'TSPEventHandlerCSV'
+path: /phloc-math/src/main/java/com/phloc/math/genetic/tsp/eventhandler/TSPEventHandlerGenerationTracker.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'TSPEventHandlerGenerationTracker'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/tsp/eventhandler/TSPEventHandlerLogging.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'TSPEventHandlerLogging'
+path: /phloc-math/src/main/java/com/phloc/math/genetic/tsp/model/TSPChromosomeValidator.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'TSPChromosomeValidator'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/tsp/model/TSPFitnessFunction.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'TSPFitnessFunction'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/tsp/mutation/TSPMutationGreedy.java
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0177:JAVA0177 Variable declaration 'nIndex2' missing initializer
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/tsp/mutation/TSPMutationGreedyBeginning.java
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/tsp/populationcreator/TSPPopulationCreatorRandom.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'TSPPopulationCreatorRandom'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0018:JAVA0018 Method name '_swapRandom' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0130:JAVA0130 Non-static method '_swapRandom' does not use instance fields
+problem: JAVA0018:JAVA0018 Method name '_createRandomChromosome' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/utils/decisionmaker/AbstractDecisionMakerRandom.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'AbstractDecisionMakerRandom'
+problem: JAVA0130:JAVA0130 Non-static method 'getNextRandom' does not use instance fields
+path: /phloc-math/src/main/java/com/phloc/math/genetic/utils/decisionmaker/DecisionMakerAlways.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'DecisionMakerAlways'
+path: /phloc-math/src/main/java/com/phloc/math/genetic/utils/decisionmaker/DecisionMakerFixedRate.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'DecisionMakerFixedRate'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/utils/decisionmaker/DecisionMakerNever.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'DecisionMakerNever'
+path: /phloc-math/src/main/java/com/phloc/math/genetic/utils/decisionmaker/DecisionMakerPercentage.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'DecisionMakerPercentage'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/utils/decisionmaker/DecisionMakerPercentageDecreasing.java
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/utils/decisionmaker/DecisionMakerPercentageIncreasing.java
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/utils/decisionmaker/IDecisionMaker.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'IDecisionMaker'
+path: /phloc-math/src/main/java/com/phloc/math/genetic/utils/random/IRandomGenerator.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'IRandomGenerator'
+path: /phloc-math/src/main/java/com/phloc/math/genetic/utils/random/RandomGenerator.java
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/genetic/utils/random/RandomGeneratorRandom.java
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0036:JAVA0036 Missing braces in while statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/graph/IBaseGraph.java
+problem: JAVA0126:JAVA0126 Method 'addNode' declares unchecked exception 'IllegalArgumentException' in throws
+problem: JAVA0126:JAVA0126 Method 'removeNode' declares unchecked exception 'IllegalArgumentException' in throws
+path: /phloc-math/src/main/java/com/phloc/math/graph/IDirectedGraphNode.java
+problem: JAVA0136:JAVA0136 22 methods defined in class 'IDirectedGraphNode' (maximum: 20)
+path: /phloc-math/src/main/java/com/phloc/math/graph/IGraph.java
+problem: JAVA0126:JAVA0126 Method 'addNode' declares unchecked exception 'IllegalArgumentException' in throws
+problem: JAVA0126:JAVA0126 Method 'removeNode' declares unchecked exception 'IllegalArgumentException' in throws
+path: /phloc-math/src/main/java/com/phloc/math/graph/IReadonlyDirectedGraph.java
+problem: JAVA0126:JAVA0126 Method 'getSingleStartNode' declares unchecked exception 'IllegalStateException' in throws
+problem: JAVA0126:JAVA0126 Method 'getSingleEndNode' declares unchecked exception 'IllegalStateException' in throws
+path: /phloc-math/src/main/java/com/phloc/math/graph/algo/Dijkstra.java
+problem: JAVA0128:JAVA0128 Public constructor 'WorkElement' in non-public class
+problem: JAVA0128:JAVA0128 Public constructor 'WorkElement' in non-public class
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0128:JAVA0128 Public constructor 'WorkRow' in non-public class
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'Result'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0018:JAVA0018 Method name '_getRelationFromLastMatch' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0285:JAVA0285 Dereference of potentially null variable 'aLastMatch'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0285:JAVA0285 Dereference of potentially null variable 'aLastMatch'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/graph/algo/Kruskal.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'Result'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0018:JAVA0018 Method name '_getWeightInfo' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/graph/impl/AbstractBaseGraph.java
+problem: JAVA0011:JAVA0011 Abstract class 'AbstractBaseGraph' does not contain an abstract method
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0116:JAVA0116 Missing javadoc: field 'DEFAULT_CHANGING_CONNECTED_OBJECTS_ALLOWED'
+problem: JAVA0016:JAVA0016 Abstract class 'AbstractBaseGraph' contains public constructor
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/graph/impl/AbstractBaseGraphObject.java
+problem: JAVA0011:JAVA0011 Abstract class 'AbstractBaseGraphObject' does not contain an abstract method
+problem: JAVA0016:JAVA0016 Abstract class 'AbstractBaseGraphObject' contains public constructor
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/graph/impl/DirectedGraph.java
+problem: JAVA0136:JAVA0136 24 methods defined in class 'DirectedGraph' (maximum: 20)
+problem: JAVA0234:JAVA0234 Class 'DirectedGraph' is Serializable but does not define serialVersionUID
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0018:JAVA0018 Method name '_invalidateCache' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0018:JAVA0018 Method name '_connect' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0126:JAVA0126 Method 'getSingleStartNode' declares unchecked exception 'IllegalStateException' in throws
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0126:JAVA0126 Method 'getSingleEndNode' declares unchecked exception 'IllegalStateException' in throws
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0036:JAVA0036 Missing braces in while statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0059:JAVA0059 Method override 'equals' only calls super()
+problem: JAVA0059:JAVA0059 Method override 'hashCode' only calls super()
+path: /phloc-math/src/main/java/com/phloc/math/graph/impl/DirectedGraphNode.java
+problem: JAVA0136:JAVA0136 37 methods defined in class 'DirectedGraphNode' (maximum: 20)
+problem: JAVA0234:JAVA0234 Class 'DirectedGraphNode' is Serializable but does not define serialVersionUID
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0059:JAVA0059 Method override 'equals' only calls super()
+problem: JAVA0059:JAVA0059 Method override 'hashCode' only calls super()
+path: /phloc-math/src/main/java/com/phloc/math/graph/impl/DirectedGraphNodeFast.java
+problem: JAVA0234:JAVA0234 Class 'DirectedGraphNodeFast' is Serializable but does not define serialVersionUID
+problem: JAVA0058:JAVA0058 Constructor 'DirectedGraphNodeFast' calls super()
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/graph/impl/DirectedGraphRelation.java
+problem: JAVA0234:JAVA0234 Class 'DirectedGraphRelation' is Serializable but does not define serialVersionUID
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/graph/impl/DirectedGraphRelationFast.java
+problem: JAVA0234:JAVA0234 Class 'DirectedGraphRelationFast' is Serializable but does not define serialVersionUID
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/graph/impl/Graph.java
+problem: JAVA0234:JAVA0234 Class 'Graph' is Serializable but does not define serialVersionUID
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0018:JAVA0018 Method name '_invalidateCache' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0018:JAVA0018 Method name '_connect' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0059:JAVA0059 Method override 'equals' only calls super()
+problem: JAVA0059:JAVA0059 Method override 'hashCode' only calls super()
+path: /phloc-math/src/main/java/com/phloc/math/graph/impl/GraphNode.java
+problem: JAVA0234:JAVA0234 Class 'GraphNode' is Serializable but does not define serialVersionUID
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0059:JAVA0059 Method override 'equals' only calls super()
+problem: JAVA0059:JAVA0059 Method override 'hashCode' only calls super()
+path: /phloc-math/src/main/java/com/phloc/math/graph/impl/GraphNodeFast.java
+problem: JAVA0234:JAVA0234 Class 'GraphNodeFast' is Serializable but does not define serialVersionUID
+problem: JAVA0058:JAVA0058 Constructor 'GraphNodeFast' calls super()
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/graph/impl/GraphRelation.java
+problem: JAVA0234:JAVA0234 Class 'GraphRelation' is Serializable but does not define serialVersionUID
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/graph/impl/GraphRelationFast.java
+problem: JAVA0234:JAVA0234 Class 'GraphRelationFast' is Serializable but does not define serialVersionUID
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/graph/iterate/DirectedGraphIteratorBackward.java
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0254:JAVA0254 Use enhanced for loop construct instead of Iterator
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/graph/iterate/DirectedGraphIteratorForward.java
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0254:JAVA0254 Use enhanced for loop construct instead of Iterator
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/graph/iterate/GraphIterator.java
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0018:JAVA0018 Method name '_traverseDFS' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/graph/simple/SimpleDirectedGraph.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0234:JAVA0234 Class 'SimpleDirectedGraph' is Serializable but does not define serialVersionUID
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/graph/simple/SimpleGraph.java
+problem: JAVA0054:JAVA0054 Inheritance depth 4 exceeds maximum 3
+problem: JAVA0234:JAVA0234 Class 'SimpleGraph' is Serializable but does not define serialVersionUID
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/graph/utils/GraphVizUtils.java
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/matrix/CholeskyDecomposition.java
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0234:JAVA0234 Class 'CholeskyDecomposition' is Serializable but does not define serialVersionUID
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/matrix/EigenvalueDecomposition.java
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0234:JAVA0234 Class 'EigenvalueDecomposition' is Serializable but does not define serialVersionUID
+problem: JAVA0018:JAVA0018 Method name '_symmetricTred2' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (h=h - f * g)
+problem: JAVA0018:JAVA0018 Method name '_symmetricTql2' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (f=f + h)
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0018:JAVA0018 Method name '_nonsymetricOrthes' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (h=h - m_aOrt[m] * g)
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (f=f / h)
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (f=f / h)
+problem: JAVA0018:JAVA0018 Method name '_cdiv' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0177:JAVA0177 Variable declaration 'r' missing initializer
+problem: JAVA0177:JAVA0177 Variable declaration 'd' missing initializer
+problem: JAVA0018:JAVA0018 Method name '_nonsymetricHqr2' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0177:JAVA0177 Variable declaration 't' missing initializer
+problem: JAVA0177:JAVA0177 Variable declaration 'w' missing initializer
+problem: JAVA0177:JAVA0177 Variable declaration 'x' missing initializer
+problem: JAVA0177:JAVA0177 Variable declaration 'y' missing initializer
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (p=p / r)
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (q=q / r)
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (n=n - 2)
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (iter=iter + 1)
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (p=p / s)
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (q=q / s)
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (r=r / s)
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (p=p / x)
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (q=q / x)
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (r=r / x)
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (p=p + s)
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (q=q / p)
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (r=r / p)
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (p=p + r * m_aHessenBerg[k + 2][j])
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (p=p + z * m_aHessenBerg[i][k + 2])
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (p=p + z * m_aEigenVector[i][k + 2])
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (r=r + m_aHessenBerg[i][j] * m_aHessenBerg[j][n])
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0177:JAVA0177 Variable declaration 'ra' missing initializer
+problem: JAVA0177:JAVA0177 Variable declaration 'sa' missing initializer
+problem: JAVA0177:JAVA0177 Variable declaration 'vr' missing initializer
+problem: JAVA0177:JAVA0177 Variable declaration 'vi' missing initializer
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (ra=ra + m_aHessenBerg[i][j] * m_aHessenBerg[j][n - 1])
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (sa=sa + m_aHessenBerg[i][j] * m_aHessenBerg[j][n])
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (z=z + m_aEigenVector[i][k] * m_aHessenBerg[k][j])
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/matrix/LUDecomposition.java
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0234:JAVA0234 Class 'LUDecomposition' is Serializable but does not define serialVersionUID
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0177:JAVA0177 Variable declaration 'aLUrowi' missing initializer
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+path: /phloc-math/src/main/java/com/phloc/math/matrix/Matrix.java
+problem: JAVA0136:JAVA0136 65 methods defined in class 'Matrix' (maximum: 20)
+problem: JAVA0234:JAVA0234 Class 'Matrix' is Serializable but does not define serialVersionUID
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0110:JAVA0110 Incorrect javadoc: no @return tag
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0110:JAVA0110 Incorrect javadoc: no @return tag
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0018:JAVA0018 Method name '_checkMatrixDimensions' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'aMatrix'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0110:JAVA0110 Incorrect javadoc: no @return tag
+problem: JAVA0115:JAVA0115 Incorrect javadoc: no @throws or @exception tag for 'java.io.IOException'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/matrix/MatrixInt.java
+problem: JAVA0136:JAVA0136 53 methods defined in class 'MatrixInt' (maximum: 20)
+problem: JAVA0234:JAVA0234 Class 'MatrixInt' is Serializable but does not define serialVersionUID
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0110:JAVA0110 Incorrect javadoc: no @return tag
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0110:JAVA0110 Incorrect javadoc: no @return tag
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0018:JAVA0018 Method name '_checkMatrixDimensions' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'aMatrix'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0110:JAVA0110 Incorrect javadoc: no @return tag
+problem: JAVA0115:JAVA0115 Incorrect javadoc: no @throws or @exception tag for 'java.io.IOException'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0159:JAVA0159 Inefficient conversion of string to integer
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/main/java/com/phloc/math/matrix/QRDecomposition.java
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0234:JAVA0234 Class 'QRDecomposition' is Serializable but does not define serialVersionUID
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+path: /phloc-math/src/main/java/com/phloc/math/matrix/SingularValueDecomposition.java
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0234:JAVA0234 Class 'SingularValueDecomposition' is Serializable but does not define serialVersionUID
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0177:JAVA0177 Variable declaration 'k' missing initializer
+problem: JAVA0177:JAVA0177 Variable declaration 'kase' missing initializer
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0177:JAVA0177 Variable declaration 'ks' missing initializer
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0084:JAVA0084 Should use compound assignment operator (iter=iter + 1)
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/test/java/com/phloc/math/genetic/crossover/CrossoverPartiallyMappedTest.java
+problem: JAVA0076:JAVA0076 Use of magic number '6'
+path: /phloc-math/src/test/java/com/phloc/math/genetic/model/MockFitnessFunction.java
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.genetic.model.IChromosome'
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.genetic.model.IFitnessFunction'
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'MockFitnessFunction'
+path: /phloc-math/src/test/java/com/phloc/math/genetic/mutation/MutationRandomExchangeTest.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'MutationRandomExchangeTest'
+path: /phloc-math/src/test/java/com/phloc/math/genetic/mutation/MutationRandomPartialReverseTest.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'MutationRandomPartialReverseTest'
+path: /phloc-math/src/test/java/com/phloc/math/genetic/tsp/AbstractFileBasedTSPRunner.java
+problem: JAVA0011:JAVA0011 Abstract class 'AbstractFileBasedTSPRunner' does not contain an abstract method
+problem: JAVA0014:JAVA0014 Class 'AbstractFileBasedTSPRunner' with only static members has non-private constructor
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'AbstractFileBasedTSPRunner'
+problem: JAVA0018:JAVA0018 Method name '_getDistance' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0123:JAVA0123 Use all three components of for loop
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+path: /phloc-math/src/test/java/com/phloc/math/genetic/tsp/MainTSPRunnerBerlin52Playground.java
+problem: JAVA0014:JAVA0014 Class 'MainTSPRunnerBerlin52Playground' with only static members has non-private constructor
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'MainTSPRunnerBerlin52Playground'
+path: /phloc-math/src/test/java/com/phloc/math/genetic/tsp/TSPRunnerTest.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'TSPRunnerTest'
+problem: JAVA0018:JAVA0018 Method name '_createDistanceMatrix' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+path: /phloc-math/src/test/java/com/phloc/math/genetic/tsp/mutation/TSPMutationGreedyTest.java
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.genetic.tsp.mutation.TSPMutationGreedy'
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'TSPMutationGreedyTest'
+problem: JAVA0057:JAVA0057 Unnecessary default constructor 'TSPMutationGreedyTest'
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+path: /phloc-math/src/test/java/com/phloc/math/genetic/tsp/result/evaluation/MainTSPRunnerAll.java
+problem: JAVA0014:JAVA0014 Class 'MainTSPRunnerAll' with only static members has non-private constructor
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'MainTSPRunnerAll'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0018:JAVA0018 Method name '_runTSP' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0138:JAVA0138 8 parameters defined for method '_runTSP' (maximum: 5)
+problem: JAVA0177:JAVA0177 Variable declaration 'm' missing initializer
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0018:JAVA0018 Method name '_runAll' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0139:JAVA0139 Definition of main other than public static void main(java.lang.String[])
+problem: JAVA0173:JAVA0173 Unused method parameter 'args'
+path: /phloc-math/src/test/java/com/phloc/math/genetic/tsp/result/evaluation/MainTSPRunnerBerlin52Best1.java
+problem: JAVA0014:JAVA0014 Class 'MainTSPRunnerBerlin52Best1' with only static members has non-private constructor
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'MainTSPRunnerBerlin52Best1'
+path: /phloc-math/src/test/java/com/phloc/math/genetic/tsp/result/evaluation/MainTSPRunnerBerlin52BestSeveral.java
+problem: JAVA0014:JAVA0014 Class 'MainTSPRunnerBerlin52BestSeveral' with only static members has non-private constructor
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'MainTSPRunnerBerlin52BestSeveral'
+problem: JAVA0139:JAVA0139 Definition of main other than public static void main(java.lang.String[])
+problem: JAVA0173:JAVA0173 Unused method parameter 'args'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0036:JAVA0036 Missing braces in while statement
+problem: JAVA0036:JAVA0036 Missing braces in while statement
+path: /phloc-math/src/test/java/com/phloc/math/genetic/tsp/result/evaluation/MainTSPRunnerCh130Best1.java
+problem: JAVA0014:JAVA0014 Class 'MainTSPRunnerCh130Best1' with only static members has non-private constructor
+path: /phloc-math/src/test/java/com/phloc/math/genetic/tsp/result/specific/MainTSPRunnerBerlin52.java
+problem: JAVA0014:JAVA0014 Class 'MainTSPRunnerBerlin52' with only static members has non-private constructor
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'MainTSPRunnerBerlin52'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'args'
+problem: JAVA0076:JAVA0076 Use of magic number '1000'
+problem: JAVA0076:JAVA0076 Use of magic number '1000'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0076:JAVA0076 Use of magic number '10.0'
+problem: JAVA0076:JAVA0076 Use of magic number '10.0'
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0076:JAVA0076 Use of magic number '10.0'
+problem: JAVA0076:JAVA0076 Use of magic number '10.0'
+path: /phloc-math/src/test/java/com/phloc/math/genetic/tsp/result/specific/MainTSPRunnerBrd14051.java
+problem: JAVA0014:JAVA0014 Class 'MainTSPRunnerBrd14051' with only static members has non-private constructor
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'MainTSPRunnerBrd14051'
+path: /phloc-math/src/test/java/com/phloc/math/genetic/tsp/result/specific/MainTSPRunnerCh130.java
+problem: JAVA0014:JAVA0014 Class 'MainTSPRunnerCh130' with only static members has non-private constructor
+problem: JAVA0076:JAVA0076 Use of magic number '10'
+problem: JAVA0076:JAVA0076 Use of magic number '10'
+problem: JAVA0076:JAVA0076 Use of magic number '20'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0076:JAVA0076 Use of magic number '20'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0076:JAVA0076 Use of magic number '10.0'
+problem: JAVA0076:JAVA0076 Use of magic number '10.0'
+problem: JAVA0049:JAVA0049 Nested block at depth '6' (maximum: '5')
+problem: JAVA0076:JAVA0076 Use of magic number '10.0'
+problem: JAVA0076:JAVA0076 Use of magic number '10.0'
+path: /phloc-math/src/test/java/com/phloc/math/genetic/utils/decisionmaker/DescisionMakerFixedRateTest.java
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.genetic.utils.decisionmaker.DecisionMakerFixedRate'
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'DescisionMakerFixedRateTest'
+path: /phloc-math/src/test/java/com/phloc/math/graph/AbstractGraphTestCase.java
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.graph.IBaseGraphNode'
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.graph.IDirectedGraphNode'
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.graph.IGraphNode'
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.graph.IReadonlyDirectedGraph'
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.graph.IReadonlyGraph'
+problem: JAVA0011:JAVA0011 Abstract class 'AbstractGraphTestCase' does not contain an abstract method
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'AbstractGraphTestCase'
+problem: JAVA0018:JAVA0018 Method name '_createDGN' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0018:JAVA0018 Method name '_createGN' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0018:JAVA0018 Method name '_getNodeValue' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0018:JAVA0018 Method name '_buildDirectedGraph' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0018:JAVA0018 Method name '_buildGraph' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0018:JAVA0018 Method name '_buildSimpleDirectedGraphCycle' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0018:JAVA0018 Method name '_buildSimpleDirectedGraphCycle2' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0018:JAVA0018 Method name '_buildSimpleGraphCycle' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0018:JAVA0018 Method name '_buildSimpleGraphCycle2' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+path: /phloc-math/src/test/java/com/phloc/math/graph/algo/DijkstraTest.java
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'DijkstraTest'
+problem: JAVA0076:JAVA0076 Use of magic number '7'
+problem: JAVA0076:JAVA0076 Use of magic number '7'
+problem: JAVA0076:JAVA0076 Use of magic number '6'
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0076:JAVA0076 Use of magic number '6'
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0076:JAVA0076 Use of magic number '6'
+problem: JAVA0076:JAVA0076 Use of magic number '7'
+problem: JAVA0076:JAVA0076 Use of magic number '7'
+problem: JAVA0076:JAVA0076 Use of magic number '10'
+problem: JAVA0076:JAVA0076 Use of magic number '10'
+problem: JAVA0076:JAVA0076 Use of magic number '864'
+problem: JAVA0076:JAVA0076 Use of magic number '864'
+path: /phloc-math/src/test/java/com/phloc/math/graph/algo/KruskalTest.java
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.graph.algo.Kruskal'
+problem: JAVA0118:JAVA0118 Missing javadoc: type 'KruskalTest'
+problem: JAVA0076:JAVA0076 Use of magic number '6'
+problem: JAVA0076:JAVA0076 Use of magic number '6'
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0076:JAVA0076 Use of magic number '8'
+problem: JAVA0076:JAVA0076 Use of magic number '8'
+problem: JAVA0076:JAVA0076 Use of magic number '6'
+problem: JAVA0076:JAVA0076 Use of magic number '7'
+problem: JAVA0076:JAVA0076 Use of magic number '7'
+problem: JAVA0076:JAVA0076 Use of magic number '10'
+problem: JAVA0076:JAVA0076 Use of magic number '10'
+path: /phloc-math/src/test/java/com/phloc/math/graph/impl/DirectedGraphNodeTest.java
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.graph.impl.DirectedGraphNode'
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.graph.impl.DirectedGraphRelation'
+path: /phloc-math/src/test/java/com/phloc/math/graph/impl/DirectedGraphRelationTest.java
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.graph.impl.DirectedGraphNode'
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.graph.impl.DirectedGraphRelation'
+path: /phloc-math/src/test/java/com/phloc/math/graph/impl/GraphNodeTest.java
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.graph.impl.GraphNode'
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.graph.impl.GraphRelation'
+path: /phloc-math/src/test/java/com/phloc/math/graph/impl/GraphObjectIDFactoryTest.java
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.graph.impl.GraphObjectIDFactory'
+path: /phloc-math/src/test/java/com/phloc/math/graph/impl/GraphRelationTest.java
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.graph.impl.GraphNode'
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.graph.impl.GraphRelation'
+path: /phloc-math/src/test/java/com/phloc/math/graph/iterate/DirectedGraphIteratorBackwardTest.java
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.graph.iterate.DirectedGraphIteratorBackward'
+problem: JAVA0076:JAVA0076 Use of magic number '100'
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0076:JAVA0076 Use of magic number '100'
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0076:JAVA0076 Use of magic number '100'
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0076:JAVA0076 Use of magic number '6'
+problem: JAVA0076:JAVA0076 Use of magic number '7'
+problem: JAVA0076:JAVA0076 Use of magic number '6'
+problem: JAVA0076:JAVA0076 Use of magic number '6'
+problem: JAVA0076:JAVA0076 Use of magic number '7'
+path: /phloc-math/src/test/java/com/phloc/math/graph/iterate/DirectedGraphIteratorForwardTest.java
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.graph.iterate.DirectedGraphIteratorForward'
+problem: JAVA0076:JAVA0076 Use of magic number '100'
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0076:JAVA0076 Use of magic number '100'
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0076:JAVA0076 Use of magic number '100'
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0076:JAVA0076 Use of magic number '6'
+problem: JAVA0076:JAVA0076 Use of magic number '7'
+problem: JAVA0076:JAVA0076 Use of magic number '6'
+problem: JAVA0076:JAVA0076 Use of magic number '7'
+path: /phloc-math/src/test/java/com/phloc/math/graph/iterate/GraphIteratorTest.java
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.graph.iterate.GraphIterator'
+problem: JAVA0076:JAVA0076 Use of magic number '100'
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0076:JAVA0076 Use of magic number '100'
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+problem: JAVA0076:JAVA0076 Use of magic number '100'
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+path: /phloc-math/src/test/java/com/phloc/math/graph/simple/SimpleDirectedGraphTest.java
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.graph.simple.ISimpleDirectedGraph'
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.graph.simple.SimpleDirectedGraph'
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+path: /phloc-math/src/test/java/com/phloc/math/graph/simple/SimpleGraphTest.java
+problem: JAVA0035:JAVA0035 Missing braces in for statement
+path: /phloc-math/src/test/java/com/phloc/math/matrix/MagicSquareExample.java
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.matrix.EigenvalueDecomposition'
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.matrix.LUDecomposition'
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.matrix.Matrix'
+problem: JAVA0106:JAVA0106 Unnecessary import from current package 'com.phloc.math.matrix.QRDecomposition'
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0110:JAVA0110 Incorrect javadoc: no @return tag
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'n'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'A' (maximum: 0)
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 's'
+problem: JAVA0110:JAVA0110 Incorrect javadoc: no @return tag
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'x'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'w'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'd'
+problem: JAVA0110:JAVA0110 Incorrect javadoc: no @return tag
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'n'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'w'
+problem: JAVA0076:JAVA0076 Use of magic number '7'
+problem: JAVA0076:JAVA0076 Use of magic number '7'
+problem: JAVA0076:JAVA0076 Use of magic number '12'
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'R' (maximum: 0)
+problem: JAVA0076:JAVA0076 Use of magic number '12'
+problem: JAVA0076:JAVA0076 Use of magic number '12'
+problem: JAVA0076:JAVA0076 Use of magic number '12'
+path: /phloc-math/src/test/java/com/phloc/math/matrix/MatrixIntTest.java
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0177:JAVA0177 Variable declaration 'tmp' missing initializer
+problem: JAVA0175:JAVA0175 Successive assignment to variable 'tmp'
+problem: JAVA0175:JAVA0175 Successive assignment to variable 'tmp'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0175:JAVA0175 Successive assignment to variable 'tmp'
+problem: JAVA0175:JAVA0175 Successive assignment to variable 'tmp'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0177:JAVA0177 Variable declaration 'M' missing initializer
+problem: JAVA0175:JAVA0175 Successive assignment to variable 'M'
+problem: JAVA0175:JAVA0175 Successive assignment to variable 'M'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0175:JAVA0175 Successive assignment to variable 'M'
+problem: JAVA0175:JAVA0175 Successive assignment to variable 'M'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0175:JAVA0175 Successive assignment to variable 'M'
+problem: JAVA0175:JAVA0175 Successive assignment to variable 'M'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0175:JAVA0175 Successive assignment to variable 'M'
+problem: JAVA0175:JAVA0175 Successive assignment to variable 'M'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0076:JAVA0076 Use of magic number '10'
+problem: JAVA0076:JAVA0076 Use of magic number '.001'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0076:JAVA0076 Use of magic number '10'
+problem: JAVA0076:JAVA0076 Use of magic number '.001'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0174:JAVA0174 Assigned local variable 'A' never used
+problem: JAVA0018:JAVA0018 Method name '_check' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'x'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'y'
+problem: JAVA0076:JAVA0076 Use of magic number '10'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0076:JAVA0076 Use of magic number '10'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0076:JAVA0076 Use of magic number '10'
+problem: JAVA0018:JAVA0018 Method name '_check' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0018:JAVA0018 Method name '_check' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'x'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'y'
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'i' (maximum: 0)
+problem: JAVA0018:JAVA0018 Method name '_check' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'x'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'y'
+problem: JAVA0018:JAVA0018 Method name '_check' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'X' (maximum: 0)
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'X'
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'Y' (maximum: 0)
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'Y'
+problem: JAVA0076:JAVA0076 Use of magic number '10'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0076:JAVA0076 Use of magic number '10'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0018:JAVA0018 Method name '_print' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0064:JAVA0064 1 variation of identifier name 's' (maximum: 0)
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 's'
+problem: JAVA0018:JAVA0018 Method name '_try_success' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 's'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'e'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0018:JAVA0018 Method name '_try_warning' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0110:JAVA0110 Incorrect javadoc: no @return tag
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'count'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 's'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'e'
+path: /phloc-math/src/test/java/com/phloc/math/matrix/MatrixTest.java
+problem: JAVA0113:JAVA0113 Incorrect javadoc: no @author tag
+problem: JAVA0177:JAVA0177 Variable declaration 'tmp' missing initializer
+problem: JAVA0175:JAVA0175 Successive assignment to variable 'tmp'
+problem: JAVA0175:JAVA0175 Successive assignment to variable 'tmp'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0175:JAVA0175 Successive assignment to variable 'tmp'
+problem: JAVA0175:JAVA0175 Successive assignment to variable 'tmp'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0177:JAVA0177 Variable declaration 'M' missing initializer
+problem: JAVA0175:JAVA0175 Successive assignment to variable 'M'
+problem: JAVA0175:JAVA0175 Successive assignment to variable 'M'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0175:JAVA0175 Successive assignment to variable 'M'
+problem: JAVA0175:JAVA0175 Successive assignment to variable 'M'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0175:JAVA0175 Successive assignment to variable 'M'
+problem: JAVA0175:JAVA0175 Successive assignment to variable 'M'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0175:JAVA0175 Successive assignment to variable 'M'
+problem: JAVA0175:JAVA0175 Successive assignment to variable 'M'
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0076:JAVA0076 Use of magic number '10'
+problem: JAVA0076:JAVA0076 Use of magic number '.001'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0076:JAVA0076 Use of magic number '10'
+problem: JAVA0076:JAVA0076 Use of magic number '.001'
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0144:JAVA0144 Line exceeds maximum 132 characters
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.Exception' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0166:JAVA0166 Generic exception 'java.lang.RuntimeException' caught
+problem: JAVA0018:JAVA0018 Method name '_check' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'x' (maximum: 0)
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'x'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'y'
+problem: JAVA0076:JAVA0076 Use of magic number '10'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0076:JAVA0076 Use of magic number '10'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0076:JAVA0076 Use of magic number '10'
+problem: JAVA0018:JAVA0018 Method name '_check' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'x'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'y'
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'i' (maximum: 0)
+problem: JAVA0018:JAVA0018 Method name '_check' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'x'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'y'
+problem: JAVA0018:JAVA0018 Method name '_check' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'X'
+problem: JAVA0064:JAVA0064 1 variation of identifier name 'Y' (maximum: 0)
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'Y'
+problem: JAVA0076:JAVA0076 Use of magic number '10'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0076:JAVA0076 Use of magic number '10'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0018:JAVA0018 Method name '_print' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0064:JAVA0064 1 variation of identifier name 's' (maximum: 0)
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 's'
+problem: JAVA0018:JAVA0018 Method name '_try_success' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 's'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'e'
+problem: JAVA0034:JAVA0034 Missing braces in if statement
+problem: JAVA0018:JAVA0018 Method name '_try_warning' does not have required form: (<uppercase>|<lowercase>)(<uppercase>|<lowercase>|<underscore>|<digit>)*
+problem: JAVA0110:JAVA0110 Incorrect javadoc: no @return tag
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'count'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 's'
+problem: JAVA0108:JAVA0108 Incorrect javadoc: no @param tag for 'e'

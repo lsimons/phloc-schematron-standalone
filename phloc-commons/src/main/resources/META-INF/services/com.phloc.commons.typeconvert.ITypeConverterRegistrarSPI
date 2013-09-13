@@ -1,0 +1,7 @@
+com.phloc.commons.typeconvert.impl.BaseTypeConverterRegistrar
+com.phloc.commons.typeconvert.impl.CharsetTypeConverterRegistrar
+com.phloc.commons.typeconvert.impl.CollectionTypeConverterRegistrar
+com.phloc.commons.typeconvert.impl.DateTimeTypeConverterRegistrar
+com.phloc.commons.typeconvert.impl.IOTypeConverterRegistrar
+com.phloc.commons.typeconvert.impl.LocaleTypeConverterRegistrar
+com.phloc.commons.typeconvert.impl.MutableTypeConverterRegistrar
