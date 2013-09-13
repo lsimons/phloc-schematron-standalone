@@ -11,7 +11,11 @@ to get phloc-schematron for yourself, you need
   http://code.google.com/p/phloc-math/
   http://code.google.com/p/phloc-schematron/
 
-here's (roughly) how this version was made:
+to build, simply run
+  mvn install -Dmaven.test.skip=true
+(not all the tests will run)
+
+here's (roughly) how this version was first initialized:
 
 ```bash
 rm -r ~/.m2/repository/com/phloc
